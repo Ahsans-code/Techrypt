@@ -1,0 +1,67 @@
+.container-main{
+    background-color: var(--color-black);
+   padding: 60px 140px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.servicesHeading{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 89px;
+    text-align: center;
+    color:#fff;
+}
+
+.mainBox{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.firstRow , .secondRow , .thirdRow{
+    display: flex;
+    gap: 20px;
+}
+
+.boxText{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.firstBox{
+    height: 150px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50px;
+    width:363px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondBox{
+    height: 150px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 100px;
+    width:363px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdBox{
+    height: 150px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50px;
+    width:363px ;
+    align-items: center;
+    justify-content: center;
+}
+

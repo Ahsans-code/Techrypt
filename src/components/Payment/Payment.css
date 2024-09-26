@@ -1,0 +1,39 @@
+.payment{
+    background-color:var(--color-black);
+   padding: 0 140px;
+   display: flex;
+   gap: 100px;
+}
+
+.paymentHeading{
+    font-size: 51px;
+    font-weight: 500;
+    line-height: 54px;
+    color: white;
+    width: 103%;
+}
+
+.text{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    color: white;
+    border-top: 2px solid white;
+    padding-top: 20px;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}

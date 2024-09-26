@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Right Grotesk';
+  src: url('/path/to/RightGrotesk-Regular.woff2') format('woff2'),
+       url('/path/to/RightGrotesk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Right Grotesk', sans-serif;
+}
+
+:root {
+  --color-black: #0f0f0f;
+  --color-black-2:#0D0D0D;
+  --color-white: #fff;
+  --color-yellow: #fccd03;
+  --color-blue: #9BD4D7;
+  --tr-main-tf: cubic-bezier(.36,.3,0,1);
+  --tr-main-dur: 300ms;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-white);
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.slide-in{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0D0D0D;
+  transform-origin: bottom;
+}
+
+.slide-out{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #0D0D0D;
+  transform-origin: top;
+}
+

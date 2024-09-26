@@ -1,0 +1,37 @@
+.container-award {
+  height: 80vh;
+  background: var(--color-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.award-section {
+  width: 90vw;
+  height: 40vh;
+  background: #65ce9f;
+  border-radius: 20px;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 20% 40% 40%;
+  padding: 30px;
+}
+
+.grid h2 {
+  font-family: "Right Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: normal;
+  color: white;
+}
+
+.hrr {
+  border: 1px solid white;
+  margin: 2px;
+}

@@ -1,0 +1,47 @@
+.zorka-agency{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: var(--color-black);
+    height: 50vh;
+    color: var(--color-white);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.zorka-agency h1{
+    font-size: 82px;
+    margin-bottom: 180px;
+}
+
+.info-item span{
+font-size: 30px;
+border-bottom: 2px solid var(--color-white);
+border-top: 2px solid var(--color-white);
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+
+.info-item span:nth-child(4){
+    border: none;
+}
+.info-item span:nth-child(2){
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .zorka-agency{
+        flex-direction: column;
+    }
+    .zorka-agency h1{
+        font-size: 46px;
+        margin-bottom: 0px;
+    }
+    
+    .info-item span{
+    font-size: 22px;
+    }
+    
+  }

@@ -1,0 +1,45 @@
+.slider-main-container {
+  background-color: var(--color-black);
+  margin: auto;
+}
+
+.slider-image-container {
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: auto;
+  height: 200px;
+}
+
+/* Background for 1st, 4th, 7th, etc. */
+.bg1 .slider-image-container {
+  background-image: url(./download.svg);
+}
+
+/* Background for 2nd, 5th, 8th, etc. */
+.bg2 .slider-image-container {
+  background-image: url(./mask.svg);
+}
+
+/* Background for 3rd, 6th, 9th, etc. */
+.bg3 .slider-image-container {
+  background-image: url(./mask1.svg);
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.slider-image {
+  height: 100%;
+  width: auto;
+}
+
+.slider-image > img {
+  margin-right: 4rem;
+}
