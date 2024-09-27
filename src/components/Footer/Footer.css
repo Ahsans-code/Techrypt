@@ -1,7 +1,8 @@
 .footer {
   text-align: center;
   background: var(--color-black);
-  height: 150vh;
+  overflow-x: hidden;
+  height: auto;
 }
 
 .heading {
@@ -149,14 +150,17 @@ input::placeholder {
 
 .lastDiv {
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  top: 50px;
-  gap: 120px;
+  /* position: relative;
+  top: 50px; */
+  gap: 0px;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .left {
+  margin-left: -65px;
+  width: 33%!important;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -171,6 +175,8 @@ input::placeholder {
   cursor: pointer;
   transition: background-color 0.3s;
   border-radius: 50%;
+  margin-left: 80px;
+  margin-bottom: 20px;
 }
 
 .Arrow:hover {
@@ -183,14 +189,28 @@ input::placeholder {
 }
 
 .middle {
+  width: 38%;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 0px;
+
+}
+.middle-link{
+  width: 31%
+}
+.right {
+  width: 28%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 22px;
 }
 
-.right {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+
+@media screen and (max-width:1050px) {
+  .main{
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

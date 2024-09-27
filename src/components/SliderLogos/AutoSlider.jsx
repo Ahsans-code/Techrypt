@@ -1,13 +1,13 @@
 import "./Slider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import P1 from "./animoca.png"
-import P2 from "./nexters.png"
-import P3 from "./pixonic.png"
-import P4 from "./plarium.png"
-import sensor from "./sensorium.png"
-import mask from "./mask.svg"
-import mask1 from "./mask1.svg"
+import P1 from "../../assets/Images/animoca.png"
+import P2 from "../../assets/Images/nexters.png"
+import P3 from "../../assets/Images/pixonic.png"
+import P4 from "../../assets/Images/plarium.png"
+import sensor from "../../assets/Images/sensorium.png"
+import mask from "../../assets/svgs/mask.svg"
+import mask1 from "../../assets/svgs/mask1.svg"
 import React from "react";
 import Slider from "react-slick";
 

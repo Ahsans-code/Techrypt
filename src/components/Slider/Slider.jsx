@@ -4,17 +4,17 @@ import { Mousewheel, Pagination } from "swiper/modules";
 import gif from "../../assets/gifs/text_2.gif";
 import "swiper/css/pagination";
 
-
 import "swiper/css";
 import "./Slider.css";
-
+      
 export default function Slider() {
   return (
     <>
+      <div className="hero-slider">
       <Swiper
         slidesPerView={1}
         mousewheel={true}
-        modules={[Mousewheel , Pagination]}
+        modules={[Mousewheel, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -28,29 +28,29 @@ export default function Slider() {
             <h1
               style={{
                 fontWeight: 500,
-                fontStyle: 'normal',
-                fontSize: '6rem',
-                lineHeight: '5.6rem',
-                letterSpacing: '-0.04em',
-                color:"white",
-                marginTop:"80px",
-                fontFamily:'Right Grotesk,sans-serif',
+                fontStyle: "normal",
+                fontSize: "6rem",
+                lineHeight: "5.6rem",
+                letterSpacing: "-0.04em",
+                color: "white",
+                marginTop: "80px",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               This is our way
             </h1>
             <h3
               style={{
-
                 width: "55.15rem",
+                textAlign: "center",
                 margin: "3rem auto 0",
-                textAlign: "center",
+
                 color: "white",
-                textAlign: "center",
+
                 fontSize: "2.8rem",
-                lineHeight:"3.4rem",
-                letterSpacing:"-.02em",
-                fontFamily:'Right Grotesk,sans-serif'
+                lineHeight: "3.4rem",
+                letterSpacing: "-.02em",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               Our passion is to tell stories and
@@ -86,29 +86,29 @@ export default function Slider() {
             <h1
               style={{
                 fontWeight: 500,
-                fontStyle: 'normal',
-                fontSize: '6rem',
-                lineHeight: '5.6rem',
-                letterSpacing: '-0.04em',
-                color:"white",
-                marginTop:"80px",
-                fontFamily:'Right Grotesk,sans-serif',
+                fontStyle: "normal",
+                fontSize: "6rem",
+                lineHeight: "5.6rem",
+                letterSpacing: "-0.04em",
+                color: "white",
+                marginTop: "80px",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               This is our way
             </h1>
             <h3
               style={{
-
                 width: "55.15rem",
+                textAlign: "center",
                 margin: "3rem auto 0",
-                textAlign: "center",
+
                 color: "white",
-                textAlign: "center",
+
                 fontSize: "2.8rem",
-                lineHeight:"3.4rem",
-                letterSpacing:"-.02em",
-                fontFamily:'Right Grotesk,sans-serif'
+                lineHeight: "3.4rem",
+                letterSpacing: "-.02em",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               Our passion is to tell stories and
@@ -144,29 +144,29 @@ export default function Slider() {
             <h1
               style={{
                 fontWeight: 500,
-                fontStyle: 'normal',
-                fontSize: '6rem',
-                lineHeight: '5.6rem',
-                letterSpacing: '-0.04em',
-                color:"white",
-                marginTop:"80px",
-                fontFamily:'Right Grotesk,sans-serif',
+                fontStyle: "normal",
+                fontSize: "6rem",
+                lineHeight: "5.6rem",
+                letterSpacing: "-0.04em",
+                color: "white",
+                marginTop: "80px",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               This is our way
             </h1>
             <h3
               style={{
-
                 width: "55.15rem",
+                textAlign: "center",
                 margin: "3rem auto 0",
-                textAlign: "center",
+
                 color: "white",
-                textAlign: "center",
+
                 fontSize: "2.8rem",
-                lineHeight:"3.4rem",
-                letterSpacing:"-.02em",
-                fontFamily:'Right Grotesk,sans-serif'
+                lineHeight: "3.4rem",
+                letterSpacing: "-.02em",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               Our passion is to tell stories and
@@ -202,29 +202,29 @@ export default function Slider() {
             <h1
               style={{
                 fontWeight: 500,
-                fontStyle: 'normal',
-                fontSize: '6rem',
-                lineHeight: '5.6rem',
-                letterSpacing: '-0.04em',
-                color:"white",
-                marginTop:"80px",
-                fontFamily:'Right Grotesk,sans-serif',
+                fontStyle: "normal",
+                fontSize: "6rem",
+                lineHeight: "5.6rem",
+                letterSpacing: "-0.04em",
+                color: "white",
+                marginTop: "80px",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               This is our way
             </h1>
             <h3
               style={{
-
                 width: "55.15rem",
+                textAlign: "center",
                 margin: "3rem auto 0",
-                textAlign: "center",
+
                 color: "white",
-                textAlign: "center",
+
                 fontSize: "2.8rem",
-                lineHeight:"3.4rem",
-                letterSpacing:"-.02em",
-                fontFamily:'Right Grotesk,sans-serif'
+                lineHeight: "3.4rem",
+                letterSpacing: "-.02em",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               Our passion is to tell stories and
@@ -260,29 +260,29 @@ export default function Slider() {
             <h1
               style={{
                 fontWeight: 500,
-                fontStyle: 'normal',
-                fontSize: '6rem',
-                lineHeight: '5.6rem',
-                letterSpacing: '-0.04em',
-                color:"white",
-                marginTop:"80px",
-                fontFamily:'Right Grotesk,sans-serif',
+                fontStyle: "normal",
+                fontSize: "6rem",
+                lineHeight: "5.6rem",
+                letterSpacing: "-0.04em",
+                color: "white",
+                marginTop: "80px",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               This is our way
             </h1>
             <h3
               style={{
-
                 width: "55.15rem",
+                textAlign: "center",
                 margin: "3rem auto 0",
-                textAlign: "center",
+
                 color: "white",
-                textAlign: "center",
+
                 fontSize: "2.8rem",
-                lineHeight:"3.4rem",
-                letterSpacing:"-.02em",
-                fontFamily:'Right Grotesk,sans-serif'
+                lineHeight: "3.4rem",
+                letterSpacing: "-.02em",
+                fontFamily: "Right Grotesk,sans-serif",
               }}
             >
               Our passion is to tell stories and
@@ -308,6 +308,7 @@ export default function Slider() {
           </div>
         </SwiperSlide>
       </Swiper>
+      </div>
     </>
   );
 }

@@ -17,7 +17,7 @@
 
 .card::after {
   content: "";
-  background: url(./indrive@2x.png) center / 15rem 15rem no-repeat;
+  background: url(../../assets/Images/indrive@2x.png) center / 15rem 15rem no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
   top: 0;
@@ -107,7 +107,7 @@
 
 .card1::after {
   content: "";
-  background: url(./plarium@2x.png) center / 15rem 15rem no-repeat;
+  background: url(../../assets/Images/plarium@2x.png) center / 15rem 15rem no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
   top: 0;
@@ -143,7 +143,7 @@
 
 .card2::after {
   content: "";
-  background: url(./nexters@2x.png) center / 15rem 15rem no-repeat;
+  background: url(../../assets/Images/nexters@2x.png) center / 15rem 15rem no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
   top: 0;

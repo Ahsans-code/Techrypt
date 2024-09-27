@@ -1,8 +1,8 @@
 .payment{
     background-color:var(--color-black);
-   padding: 0 140px;
    display: flex;
    gap: 100px;
+   justify-content: center;
 }
 
 .paymentHeading{

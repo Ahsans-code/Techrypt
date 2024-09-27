@@ -2,8 +2,8 @@ import React from 'react'
 import Hero from "../../components/Hero/Hero";
 import Pricing from '../../components/Pricing/Pricing';
 import VideoGallery from '../../components/VideoGallery/VideoGallery';
-import Verticals from "../../components/Verticle/Verticals/Verticals"
-import InfluencerAndPlatforms from "../../components/Verticle/InfluencerAndPlatforms/InfluencerAndPlatforms"
+import Verticals from "../../components/Verticals/Verticals"
+import InfluencerAndPlatforms from "../../components/InfluencerAndPlatforms/InfluencerAndPlatforms"
 
 const influence = () => {
   return (

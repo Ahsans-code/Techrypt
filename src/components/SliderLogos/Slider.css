@@ -17,17 +17,17 @@
 
 /* Background for 1st, 4th, 7th, etc. */
 .bg1 .slider-image-container {
-  background-image: url(./download.svg);
+  background-image: url(../../assets/svgs/download.svg);
 }
 
 /* Background for 2nd, 5th, 8th, etc. */
 .bg2 .slider-image-container {
-  background-image: url(./mask.svg);
+  background-image: url(../../assets/svgs/mask.svg);
 }
 
 /* Background for 3rd, 6th, 9th, etc. */
 .bg3 .slider-image-container {
-  background-image: url(./mask1.svg);
+  background-image: url(../../assets/svgs/mask1.svg);
 }
 
 .slick-slider .slick-track, .slick-slider .slick-list {

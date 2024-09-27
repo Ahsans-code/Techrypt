@@ -127,25 +127,25 @@ export default function Footer() {
           </a>
         </div>
 
+          <div className="Arrow" onClick={scrollToTop}></div>
         <div className="lastDiv">
           <div className="left">
-          <div className="Arrow" onClick={scrollToTop}></div>
             <a href="/" className="link" style={{ fontSize: "12px" }}>
               INFO@ZORKA.AGENCY
             </a>
           </div>
-          <div className="right">
-            <a href="" className="link" style={{ fontSize: "12px" }}>
+          <div className="middle">
+            <a href="/" style={{ fontSize: "12px"  , color:"gray"}}>
               DOWNLOAD MEDIAKIT
             </a>
-            <a href="" className="link" style={{ fontSize: "12px" }}>
+            <a href="/" style={{ fontSize: "12px" , color:"gray" }}>
               PRIVACY POLICY
             </a>
-            <a href="" className="link" style={{ fontSize: "12px" }}>
+            <a href="/" style={{ fontSize: "12px" , color:"gray" }}>
               TERMS&CONDITIONS
             </a>
           </div>
-          <div className="middle">
+          <div className="right">
             <img src={img1} alt="" className="image" />
             <img src={img2} alt="" className="image" />
             <img src={img3} alt="" className="image" />

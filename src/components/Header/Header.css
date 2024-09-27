@@ -225,55 +225,64 @@ padding: 10px 20px;
 }
 
 /* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
-  .navbar {
-  }
-
   .midNav {
     position: relative;
-    width: 25rem;
-    display: none;
+    width: auto; /* Allow it to expand */
+    display: flex; /* Ensure it displays */
+    justify-content: center; /* Center contents */
   }
 
   .navList {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0px;
+    flex-direction: column; /* Stack items vertically */
+    display: flex; /* Ensure it's visible */
+    padding: 0; /* Reset padding */
   }
 
-  .inputDiv {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .dropDownList {
-    font-size: 24px;
+  .listItems {
+    margin: 5px 0; /* Add some margin between items */
   }
 
   .yellowDiv {
-    height: 10rem;
-    width: 20rem;
+    height: auto; /* Adjust height to content */
+    width: auto; /* Adjust width to fit content */
   }
 
+  .dropDownList {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .inputDiv {
+    flex-direction: column; /* Stack inputs vertically */
+    align-items: center; /* Center inputs */
+  }
+
+  .input,
   .Secondinput {
-    width: 23rem;
-    font-size: 16px;
+    width: 90%; /* Make inputs responsive */
+  }
+
+  .navbar {
+    padding: 10px 20px; /* Reduce padding */
   }
 
   .hr2 {
-    display: none;
+    display: none; /* Keep hidden if not needed */
   }
 
   .hr1 {
-    width: 250px;
+    width: 100px; /* Adjust HR width */
   }
 
-  .navbar{
-    padding: 10px 40px;
-  }
   .leftNav, .rightNav {
-    gap: 20px;
+    gap: 10px; /* Reduce gap */
+  }
+
+  .icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
   }
 }
+
 
