@@ -9,13 +9,13 @@ import mask1 from "../../assets/svgs/mask1.svg"
 // VERTICLE
 
 import Yt from "../Images/youtube.png";
-import Insta from "../images/instagram.png";
-import Tt from "../images/tiktok.png";
-import Telegram from "../images/telegram.png";
-import twitch from "../images/twitch.png";
-import snap from "../images/snapchat.png";
-import fbg from "../images/facebookgaming.png";
-import ap from "../images/applepodcasts.png";
+import Insta from "../Images/instagram.png";
+import Tt from "../Images/tiktok.png";
+import Telegram from "../Images/telegram.png";
+import twitch from "../Images/twitch.png";
+import snap from "../Images/snapchat.png";
+import fbg from "../Images/facebookgaming.png";
+import ap from "../Images/applepodcasts.png";
 
 
 
