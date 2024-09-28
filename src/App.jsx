@@ -1,4 +1,3 @@
-// src/App.js
 import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";
 import Main from "./pages/Main/main.jsx";
@@ -7,9 +6,14 @@ import Creative from "./pages/Creative/creative.jsx";
 import Performance from "./pages/Performance/performance.jsx";
 import Work from "./pages/Work/work.jsx";
 import About from "./pages/About/About.jsx";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import React, { useEffect } from "react";
-import "./App.css"; 
+import "./App.css";
 import EventCalendar from "./pages/EventCalendar/EventCalendar.jsx";
 import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import MessageSidebar from "./components/MessageSidebar/MessageSidebar.jsx";
@@ -37,7 +41,7 @@ const PageTransition = ({ children }) => {
 const App = () => {
   return (
     <Router>
-      <ScrollToTop /> 
+      <ScrollToTop />
       <Header />
       <PageTransition>
         <Routes>
@@ -51,7 +55,7 @@ const App = () => {
         </Routes>
       </PageTransition>
       <Sidebar />
-      <MessageSidebar/>
+      <MessageSidebar />
       <Footer />
     </Router>
   );

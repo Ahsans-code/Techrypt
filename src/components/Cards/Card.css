@@ -164,3 +164,14 @@
 .card2:hover ::after {
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+
+}
+
+}

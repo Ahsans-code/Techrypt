@@ -11,7 +11,7 @@
 }
 
 .zorka-agency h1{
-    font-size: 82px;
+    font-size: 5rem;
     margin-bottom: 180px;
 }
 
@@ -36,7 +36,7 @@ padding: 10px;
         flex-direction: column;
     }
     .zorka-agency h1{
-        font-size: 46px;
+        font-size: 3rem;
         margin-bottom: 0px;
     }
     

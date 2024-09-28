@@ -33,11 +33,11 @@
 .aboutwrite-button{
     background-color: #FCCD03;
     border-radius: 30px;
+    padding: 10px 20px;
 
 }
 .aboutwrite-button a{
-    background-color: #FCCD03;
-    border-radius: 30px;
+ 
     text-decoration: none;
     color: black;
     font-size: 22px;

@@ -43,22 +43,35 @@
     background-color: rgba(0, 0, 0, 0.9); 
   }
   
-  .h1 {
+  .video-h1 {
     color: var(--color-white);
     text-align: center;
-    font-size: 66px;
+    font-size: 5rem;
     padding: 30px;
   }
   
-  .h2 {
+  .video-h2 {
     text-align: left;
     color: white;
-    font-size: 36px;
+    font-size: 2rem;
   }
   
-  .h3 {
+  .video-h3 {
     text-align: left;
     color: white;
-    font-size: 26px;
+    font-size: 1.3rem;
   }
   
+
+  @media (max-width: 768px) {
+
+    .video-h1{
+      font-size: 3rem;
+    }
+    .video-h2{
+      font-size: 1rem;
+    }
+    .video-h3{
+      font-size: 0.8rem;
+    }
+  }

@@ -26,10 +26,7 @@ function Filter() {
   return (
     <section className='filter-section'>
       <div className="filter-section-heading">
-        <h1 style={{
-          padding:"40px",
-          fontSize:"80px"
-        }}>Other Works</h1>
+        <h1 className='filter-h1'>Other Works</h1>
       </div>
       <div className="filter-section-filter-container">
         <div className='filter-select'>
