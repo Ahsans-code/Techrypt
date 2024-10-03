@@ -25,3 +25,6 @@
   position: relative;
 }
 
+body {
+  background: var(--color-black);
+}

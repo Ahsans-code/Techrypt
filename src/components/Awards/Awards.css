@@ -19,6 +19,7 @@
   position: absolute;
   grid-template-columns: 20% 40% 40%;
   padding: 30px;
+  height: auto;
 }
 
 .grid h2 {
@@ -34,4 +35,13 @@
 .hrr {
   border: 1px solid white;
   margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid h2 {
+    font-size: 1.2rem;
+  }
+  .award-section {
+    height: 135vw;
+  }
 }

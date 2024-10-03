@@ -17,7 +17,7 @@
   background-color: var(--color-black);
 }
 
-.influence-h1{
+.influence-h1 {
   font-size: 62px;
   color: white;
   font: bold;
@@ -111,5 +111,19 @@
   .grid-cards {
     width: 100%;
     padding-bottom: 60%; /* Adjust aspect ratio for small screens */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .influence-h1 {
+    font-size: 3rem;
+    padding: 0px 20px;
+  }
+  .Influencer-grid {
+    width: 80vw;
+  }
+  .grid-cards {
+    width: 100%;
+    padding-bottom: 50%; /* Adjust aspect ratio for small screens */
   }
 }

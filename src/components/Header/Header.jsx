@@ -16,6 +16,12 @@ export default function Header() {
     setDropdownVisible(false); // Hide dropdown on link click
   };
 
+  const [activeButton, setActiveButton] = useState(null); // State to track the active button
+
+  const handleButtonClick = (buttonName) => {
+    setActiveButton(buttonName); // Set the clicked button as active
+  };
+
   return (
     <>
       <nav className="navbar">
@@ -27,30 +33,57 @@ export default function Header() {
         </div>
 
         <div className="midNav">
-  <ul className="navList">
-    <li className="listItems">
-      <Link to="/Influence" className="anchor" onClick={handleLinkClick}>
-        Influence
-      </Link>
-    </li>
-    <li className="listItems">
-      <Link to="/Performance" className="anchor" onClick={handleLinkClick}>
-        Performance
-      </Link>
-    </li>
-    <li className="listItems">
-      <Link to="/Creative" className="anchor" onClick={handleLinkClick}>
-        Creative
-      </Link>
-    </li>
-    <li className="listItems">
-      <Link to="/Work" className="anchor" onClick={handleLinkClick}>
-        Work
-      </Link>
-    </li>
-  </ul>
-</div>
-
+          <ul className="navList">
+            <li className="listItems">
+              <Link to="/Influence" className="anchor">
+                <button
+                  className={`navButton ${
+                    activeButton === "Influence" ? "active" : ""
+                  }`} // Apply active class if clicked
+                  onClick={() => handleButtonClick("Influence")}
+                >
+                  Influence
+                </button>
+              </Link>
+            </li>
+            <li className="listItems">
+              <Link to="/Performance" className="anchor">
+                <button
+                  className={`navButton ${
+                    activeButton === "Performance" ? "active" : ""
+                  }`} // Apply active class if clicked
+                  onClick={() => handleButtonClick("Performance")}
+                >
+                  Performance
+                </button>
+              </Link>
+            </li>
+            <li className="listItems">
+              <Link to="/Creative" className="anchor">
+                <button
+                  className={`navButton ${
+                    activeButton === "Creative" ? "active" : ""
+                  }`} // Apply active class if clicked
+                  onClick={() => handleButtonClick("Creative")}
+                >
+                  Creative
+                </button>
+              </Link>
+            </li>
+            <li className="listItems">
+              <Link to="/Work" className="anchor">
+                <button
+                  className={`navButton ${
+                    activeButton === "Work" ? "active" : ""
+                  }`} // Apply active class if clicked
+                  onClick={() => handleButtonClick("Work")}
+                >
+                  Work
+                </button>
+              </Link>
+            </li>
+          </ul>
+        </div>
 
         <div className="rightNav">
           <hr className="hr2" />
@@ -62,14 +95,18 @@ export default function Header() {
           />
 
           {isDropdownVisible && (
-            <div className={`dropdown ${isDropdownVisible ? "dropdown-visible" : "dropdown-hidden"}`}>
+            <div
+              className={`dropdown ${
+                isDropdownVisible ? "dropdown-visible" : "dropdown-hidden"
+              }`}
+            >
               <div className="yellowDiv">
                 <ul className="navList">
                   <li className="dropDownList">
                     <Link
                       to="/About"
                       className="dropDownAnchor"
-                      style={{ color: "black" , textDecoration:"underline" }}
+                      style={{ color: "black", textDecoration: "underline" }}
                       onClick={handleLinkClick} // Hide dropdown on click
                     >
                       About Us
@@ -79,7 +116,7 @@ export default function Header() {
                     <Link
                       to="/Calendar"
                       className="dropDownAnchor"
-                      style={{ color: "black" , textDecoration:"underline"}}
+                      style={{ color: "black", textDecoration: "underline" }}
                       onClick={handleLinkClick} // Hide dropdown on click
                     >
                       Events Calendar
@@ -89,12 +126,28 @@ export default function Header() {
               </div>
               <div className="inputDiv">
                 <div className="leftInput">
-                  <input type="text" placeholder="Your name" className="input" />
-                  <input type="text" placeholder="Your email" className="input" />
+                  <input
+                    type="text"
+                    placeholder="Your name"
+                    className="input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Your email"
+                    className="input"
+                  />
                 </div>
                 <div className="rightInput">
-                  <input type="text" placeholder="Your company name" className="input" />
-                  <input type="text" placeholder="How did you hear about us?" className="input" />
+                  <input
+                    type="text"
+                    placeholder="Your company name"
+                    className="input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="How did you hear about us?"
+                    className="input"
+                  />
                 </div>
               </div>
               <input

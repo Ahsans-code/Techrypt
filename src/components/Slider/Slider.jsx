@@ -3,311 +3,54 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel, Pagination } from "swiper/modules";
 import gif from "../../assets/gifs/text_2.gif";
 import "swiper/css/pagination";
-
 import "swiper/css";
 import "./Slider.css";
-      
+
 export default function Slider() {
+  // Array of slide data
+  const slides = [
+    {
+      title: "This is our way",
+      content: `Our passion is to tell stories and create ideas in all shapes, sizes and worlds. 
+      We bring ideas to life through impactful creative work across all communication touchpoints.`,
+    },
+    // You can add more objects if needed, and the content can vary
+    {
+      title: "This is another way",
+      content: `We strive to create powerful connections and innovate across various domains.`,
+    },
+    {
+      title: "This is the future",
+      content: `Our goal is to create memorable experiences that transcend traditional mediums.`,
+    },
+  ];
+
   return (
     <>
       <div className="hero-slider">
-      <Swiper
-        slidesPerView={1}
-        mousewheel={true}
-        modules={[Mousewheel, Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <div
-            style={{
-              background: "#0f0f0f",
-              height: "100vh",
-              width: "100vw",
-            }}
-          >
-            <h1
-              style={{
-                fontWeight: 500,
-                fontStyle: "normal",
-                fontSize: "6rem",
-                lineHeight: "5.6rem",
-                letterSpacing: "-0.04em",
-                color: "white",
-                marginTop: "80px",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              This is our way
-            </h1>
-            <h3
-              style={{
-                width: "55.15rem",
-                textAlign: "center",
-                margin: "3rem auto 0",
-
-                color: "white",
-
-                fontSize: "2.8rem",
-                lineHeight: "3.4rem",
-                letterSpacing: "-.02em",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              Our passion is to tell stories and
-              <img
-                style={{
-                  width: "6.4rem",
-                  height: "2.9rem",
-                  margin: "0 .35rem -.55rem",
-                  objectFit: "cover",
-                  borderRadius: "10rem",
-                  display: "inline-block",
-                }}
-                src={gif}
-                alt="Description of the GIF"
-              />
-              <br />
-              create ideas in all shapes,
-              <br />
-              sizes and worlds. We bring ideas to life <br />
-              through impactful creative work across <br />
-              all communication touchpoints <br />
-            </h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            style={{
-              background: "#0f0f0f",
-              height: "100vh",
-              width: "100vw",
-            }}
-          >
-            <h1
-              style={{
-                fontWeight: 500,
-                fontStyle: "normal",
-                fontSize: "6rem",
-                lineHeight: "5.6rem",
-                letterSpacing: "-0.04em",
-                color: "white",
-                marginTop: "80px",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              This is our way
-            </h1>
-            <h3
-              style={{
-                width: "55.15rem",
-                textAlign: "center",
-                margin: "3rem auto 0",
-
-                color: "white",
-
-                fontSize: "2.8rem",
-                lineHeight: "3.4rem",
-                letterSpacing: "-.02em",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              Our passion is to tell stories and
-              <img
-                style={{
-                  width: "6.4rem",
-                  height: "2.9rem",
-                  margin: "0 .35rem -.55rem",
-                  objectFit: "cover",
-                  borderRadius: "10rem",
-                  display: "inline-block",
-                }}
-                src={gif}
-                alt="Description of the GIF"
-              />
-              <br />
-              create ideas in all shapes,
-              <br />
-              sizes and worlds. We bring ideas to life <br />
-              through impactful creative work across <br />
-              all communication touchpoints <br />
-            </h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            style={{
-              background: "#0f0f0f",
-              height: "100vh",
-              width: "100vw",
-            }}
-          >
-            <h1
-              style={{
-                fontWeight: 500,
-                fontStyle: "normal",
-                fontSize: "6rem",
-                lineHeight: "5.6rem",
-                letterSpacing: "-0.04em",
-                color: "white",
-                marginTop: "80px",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              This is our way
-            </h1>
-            <h3
-              style={{
-                width: "55.15rem",
-                textAlign: "center",
-                margin: "3rem auto 0",
-
-                color: "white",
-
-                fontSize: "2.8rem",
-                lineHeight: "3.4rem",
-                letterSpacing: "-.02em",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              Our passion is to tell stories and
-              <img
-                style={{
-                  width: "6.4rem",
-                  height: "2.9rem",
-                  margin: "0 .35rem -.55rem",
-                  objectFit: "cover",
-                  borderRadius: "10rem",
-                  display: "inline-block",
-                }}
-                src={gif}
-                alt="Description of the GIF"
-              />
-              <br />
-              create ideas in all shapes,
-              <br />
-              sizes and worlds. We bring ideas to life <br />
-              through impactful creative work across <br />
-              all communication touchpoints <br />
-            </h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            style={{
-              background: "#0f0f0f",
-              height: "100vh",
-              width: "100vw",
-            }}
-          >
-            <h1
-              style={{
-                fontWeight: 500,
-                fontStyle: "normal",
-                fontSize: "6rem",
-                lineHeight: "5.6rem",
-                letterSpacing: "-0.04em",
-                color: "white",
-                marginTop: "80px",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              This is our way
-            </h1>
-            <h3
-              style={{
-                width: "55.15rem",
-                textAlign: "center",
-                margin: "3rem auto 0",
-
-                color: "white",
-
-                fontSize: "2.8rem",
-                lineHeight: "3.4rem",
-                letterSpacing: "-.02em",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              Our passion is to tell stories and
-              <img
-                style={{
-                  width: "6.4rem",
-                  height: "2.9rem",
-                  margin: "0 .35rem -.55rem",
-                  objectFit: "cover",
-                  borderRadius: "10rem",
-                  display: "inline-block",
-                }}
-                src={gif}
-                alt="Description of the GIF"
-              />
-              <br />
-              create ideas in all shapes,
-              <br />
-              sizes and worlds. We bring ideas to life <br />
-              through impactful creative work across <br />
-              all communication touchpoints <br />
-            </h3>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div
-            style={{
-              background: "#0f0f0f",
-              height: "100vh",
-              width: "100vw",
-            }}
-          >
-            <h1
-              style={{
-                fontWeight: 500,
-                fontStyle: "normal",
-                fontSize: "6rem",
-                lineHeight: "5.6rem",
-                letterSpacing: "-0.04em",
-                color: "white",
-                marginTop: "80px",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              This is our way
-            </h1>
-            <h3
-              style={{
-                width: "55.15rem",
-                textAlign: "center",
-                margin: "3rem auto 0",
-
-                color: "white",
-
-                fontSize: "2.8rem",
-                lineHeight: "3.4rem",
-                letterSpacing: "-.02em",
-                fontFamily: "Right Grotesk,sans-serif",
-              }}
-            >
-              Our passion is to tell stories and
-              <img
-                style={{
-                  width: "6.4rem",
-                  height: "2.9rem",
-                  margin: "0 .35rem -.55rem",
-                  objectFit: "cover",
-                  borderRadius: "10rem",
-                  display: "inline-block",
-                }}
-                src={gif}
-                alt="Description of the GIF"
-              />
-              <br />
-              create ideas in all shapes,
-              <br />
-              sizes and worlds. We bring ideas to life <br />
-              through impactful creative work across <br />
-              all communication touchpoints <br />
-            </h3>
-          </div>
-        </SwiperSlide>
-      </Swiper>
+        <Swiper
+          slidesPerView={1}
+          mousewheel={true}
+          modules={[Mousewheel, Pagination]}
+          className="mySwiper"
+        >
+          {slides.map((slide, index) => (
+            <SwiperSlide key={index}>
+              <div className="slider-contain">
+                <h1 className="slider-h1">{slide.title}</h1>
+                <h3 className="slider-h3">
+                  {slide.content.split(" ").slice(0, 6).join(" ")}
+                  <img
+                    className="gif-image"
+                    src={gif}
+                    alt="Description of the GIF"
+                  />
+                  {slide.content.split(" ").slice(6).join(" ")}
+                </h3>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </>
   );

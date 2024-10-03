@@ -53,7 +53,7 @@
 .select {
   color: var(--color-white);
   border: none;
-  font-size: 24px; 
+  font-size: 24px;
   border-bottom: 2px solid white;
   border-radius: 0;
   margin-top: 13px;
@@ -158,9 +158,9 @@ input::placeholder {
   margin-bottom: 50px;
 }
 
-.left {
-  margin-left: -65px;
-  width: 33%!important;
+.left1 {
+  margin-left: 65px;
+  width: 33% !important;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -189,14 +189,13 @@ input::placeholder {
 }
 
 .middle {
-  width: 38%;
+  width: 58%;
   display: flex;
   justify-content: space-between;
   gap: 0px;
-
 }
-.middle-link{
-  width: 31%
+.middle-link {
+  width: 31%;
 }
 .right {
   width: 28%;
@@ -204,27 +203,35 @@ input::placeholder {
   justify-content: flex-end;
   align-items: center;
   gap: 22px;
+  margin-right: 100px;
 }
 
-
-@media screen and (max-width:1050px) {
-  .main{
+@media screen and (max-width: 1050px) {
+  .main {
     font-size: 60px;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .footer {
     text-align: center;
     background: var(--color-black);
-    height: 200vh;
+    overflow: hidden;
   }
   .form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+  }
+  .leftForm {
+    width: 18rem;
+  }
+  .rightForm-footer {
+    width: 18rem;
+  }
+  .rightForm-footer :nth-child(2) {
+    width: 20rem;
   }
   .main {
     font-size: 46px;
@@ -242,7 +249,6 @@ input::placeholder {
     align-items: center;
     text-align: center;
     width: 100%;
-
   }
 
   .inputField {
@@ -255,12 +261,28 @@ input::placeholder {
   .lastDiv {
     gap: 20px;
     flex-direction: column;
+    margin-top: 20px;
   }
 
   .heading {
     margin-bottom: 0px;
   }
-  .right{
+  .middle {
     flex-direction: column;
+    gap: 20px;
+  }
+  .right {
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-right: 0;
+  }
+  .left1 {
+    margin-left: 20px;
+  }
+  .Arrow {
+    margin: 0;
+    position: absolute;
+    left: 30px;
+    margin-top: 40px;
   }
 }

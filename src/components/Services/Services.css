@@ -1,67 +1,90 @@
-.container-main{
-    background-color: var(--color-black);
-   padding: 60px 140px;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
+.container-main {
+  background-color: var(--color-black);
+  padding: 60px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.servicesHeading{
-    font-size: 5rem;
-    font-weight: 500;
-    line-height: 89px;
-    text-align: center;
-    color:#fff;
+.servicesHeading {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 89px;
+  text-align: center;
+  color: #fff;
 }
 
-.mainBox{
-    margin-top: 30px;
-    display: flex;
+.mainBox {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.firstRow,
+.secondRow,
+.thirdRow {
+  display: flex;
+  gap: 20px;
+}
+
+.boxText {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.firstBox {
+  height: 150px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 363px;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondBox {
+  height: 150px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 100px;
+  width: 363px;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdBox {
+  height: 150px;
+  display: flex;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 363px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .servicesHeading {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  .container-main {
+    padding: 90px 0px;
+  }
+  .firstRow {
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  }
+  .secondRow {
+    flex-direction: column;
+  }
+  .thirdRow {
+    flex-direction: column;
+  }
+  .servicesHeading {
+    padding: 20px;
+  }
 }
-
-.firstRow , .secondRow , .thirdRow{
-    display: flex;
-    gap: 20px;
-}
-
-.boxText{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    text-align: center;
-}
-
-.firstBox{
-    height: 150px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 50px;
-    width:363px ;
-    align-items: center;
-    justify-content: center;
-}
-
-.secondBox{
-    height: 150px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 100px;
-    width:363px ;
-    align-items: center;
-    justify-content: center;
-}
-
-.thirdBox{
-    height: 150px;
-    display: flex;
-    border: 2px solid white;
-    border-radius: 50px;
-    width:363px ;
-    align-items: center;
-    justify-content: center;
-}
-

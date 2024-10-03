@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Hero.css";
-import video from "../../assets/herovid1.mp4"
+import video from "../../assets/herovid1.mp4";
 
 const Hero = () => {
   const texts = ["Efficient", "Smart", "Worldwide"];
   const [currentText, setCurrentText] = useState(texts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);
-  const videoRef = useRef(null); 
+  const videoRef = useRef(null);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -27,7 +27,7 @@ const Hero = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.5; 
+      videoRef.current.playbackRate = 0.5;
     }
   }, []);
 
@@ -37,11 +37,11 @@ const Hero = () => {
 
   return (
     <div className="hero-section">
-      <video 
-        autoPlay 
-        muted 
+      <video
+        autoPlay
+        muted
         ref={videoRef}
-        onEnded={handleVideoEnd} 
+        onEnded={handleVideoEnd}
         className="background-video"
       >
         <source src={video} type="video/mp4" />
@@ -52,10 +52,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-para">
-        <p>
-          We increase LTV and ROI metrics by offering smart and creative <br />
-          approaches according to your goals, KPIs, and strategic plan.
-        </p>
+        <p>Scale your brand with a creative growth agency</p>
       </div>
       <div className="smile"></div>
     </div>

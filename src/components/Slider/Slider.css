@@ -1,18 +1,68 @@
-  .swiper {
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-slider {
+  height: 100vh;
+  width: 100%;
+}
+
+.slider-contain {
+  background: #0f0f0f;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slider-h1 {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 6rem;
+  line-height: 5.6rem;
+  letter-spacing: -0.04rem;
+  margin-top: 80px;
+  color: white;
+  font-family: Right Grotesk, sans-serif;
+}
+
+.slider-h3 {
+  width: 55.15rem;
+  text-align: center;
+  margin: 3rem auto 0;
+  color: white;
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+  letter-spacing: -0.02em;
+  font-family: "Right Grotesk", sans-serif;
+}
+
+.gif-image {
+  width: 6.4rem;
+  height: 2.9rem;
+  margin: 0 0.35rem -0.55rem;
+  object-fit: cover;
+  border-radius: 10rem;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-h1 {
+    font-size: 3rem;
+  }
+  .slider-h3 {
+    font-size: 1.5rem;
     width: 100%;
+    line-height: 2.2rem;
+    letter-spacing: 0em;
   }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .gif-image {
+    display: none;
   }
-  .hero-slider{
-    height: 100vh;
-    width: 100%;
-  }
-  
-  
+}

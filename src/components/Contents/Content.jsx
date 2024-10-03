@@ -3,12 +3,6 @@ import "./Content.css";
 import { FaCircleArrowDown, FaCircleArrowUp } from "react-icons/fa6"; // Use Up arrow icon as well
 
 export default function Content() {
-  const [isContentOpen, setContentOpen] = useState(false);
-  const [isBrandOpen, setBrandOpen] = useState(false);
-
-  const toggleContent = () => setContentOpen(!isContentOpen);
-  const toggleBrand = () => setBrandOpen(!isBrandOpen);
-
   return (
     <>
       <div className="container-content">

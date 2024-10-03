@@ -4,27 +4,31 @@
 }
 .navbar {
   background-color: var(--color-black);
-  padding: 10px 120px;
+  padding: 10px 10px;
+  border-radius: 0px 0px 20px 20px;
+  margin-left: 120px;
   display: flex;
   align-items: center;
   gap: 20px;
   position: sticky;
-  top: 0; /* Make it stick to the top */
-  z-index: 999; /* Ensure it appears above other content */
+  top: 0;
+  z-index: 999;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
-
 
 .leftNav,
 .rightNav {
   display: flex;
-  gap: 30px;
+  gap: 88px;
   align-items: center;
 }
 
 .hr1,
 .hr2 {
   color: white;
-  width: 180px;
+  width: 200px;
 }
 
 .midNav {
@@ -35,7 +39,6 @@
   align-items: center;
   justify-content: center;
   width: 30rem;
-
 }
 
 .navList {
@@ -47,14 +50,13 @@
 
 .navList li a {
   border-radius: 10px;
-  color:var(--color-black);
+  color: var(--color-black);
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Apply smooth transition */
 }
 
 .navList li a:active {
   color: white;
-  background: var(--color-black);
   border-radius: 10px;
 }
 
@@ -73,7 +75,7 @@
   }
 }
 
-.dropDownAnchor{
+.dropDownAnchor {
   margin-left: 30px;
 }
 
@@ -83,14 +85,17 @@
 }
 
 .icon {
-  cursor: pointer;}
+  cursor: pointer;
+}
 /* Dropdown initially hidden */
 .dropdown {
   position: absolute;
+  max-width: 1200px;
   top: 4.7rem;
   background-color: var(--color-black);
   border-radius: 5px;
   z-index: 100;
+  right: 0;
   left: 0;
   width: 99vw;
   height: 90vh;
@@ -139,7 +144,6 @@
   animation: dropdownSlideOut 0.6s ease forwards; /* Slide up */
   visibility: hidden;
 }
-
 
 .yellowDiv {
   display: flex;
@@ -197,7 +201,7 @@
 
 .submit {
   margin-top: 20px;
-padding: 10px 20px;
+  padding: 10px 20px;
   border: none;
   font-size: 22px;
   font-weight: bold;
@@ -224,65 +228,26 @@ padding: 10px 20px;
   text-align: center;
 }
 
-/* Media Queries for Responsiveness */
-/* Media Queries for Responsiveness */
-@media (max-width: 1200px) {
-  .midNav {
-    position: relative;
-    width: auto; /* Allow it to expand */
-    display: flex; /* Ensure it displays */
-    justify-content: center; /* Center contents */
-  }
-
-  .navList {
-    flex-direction: column; /* Stack items vertically */
-    display: flex; /* Ensure it's visible */
-    padding: 0; /* Reset padding */
-  }
-
-  .listItems {
-    margin: 5px 0; /* Add some margin between items */
-  }
-
-  .yellowDiv {
-    height: auto; /* Adjust height to content */
-    width: auto; /* Adjust width to fit content */
-  }
-
-  .dropDownList {
-    font-size: 20px; /* Adjust font size for smaller screens */
-  }
-
-  .inputDiv {
-    flex-direction: column; /* Stack inputs vertically */
-    align-items: center; /* Center inputs */
-  }
-
-  .input,
-  .Secondinput {
-    width: 90%; /* Make inputs responsive */
-  }
-
-  .navbar {
-    padding: 10px 20px; /* Reduce padding */
-  }
-
-  .hr2 {
-    display: none; /* Keep hidden if not needed */
-  }
-
-  .hr1 {
-    width: 100px; /* Adjust HR width */
-  }
-
-  .leftNav, .rightNav {
-    gap: 10px; /* Reduce gap */
-  }
-
-  .icon {
-    width: 30px; /* Adjust icon size */
-    height: 30px; /* Adjust icon size */
-  }
+.navButton {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px;
+  margin-top: 5px;
+  padding: 8px 9px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
+.navButton.active {
+  background-color: black;
+  color: white;
+}
 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
