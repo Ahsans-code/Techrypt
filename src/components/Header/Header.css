@@ -251,3 +251,101 @@
     display: none;
   }
 }
+
+.small-nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.linehor {
+  background: white;
+  height: 2px;
+  width: 160px;
+}
+
+@media only screen and (min-width: 600px) {
+  .small-nav {
+    display: none;
+  }
+  .small-main {
+    display: none;
+  }
+}
+
+.dropdown-mobile {
+  background: var(--color-black);
+  position: absolute;
+  top: 160px; /* Adjust as per your header height */
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 10;
+  border-radius: 8px;
+  height: auto;
+}
+
+.dropdown-mobile .navList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  background: var(--color-yellow);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-mobile .navList .dropDownList {
+  margin-bottom: 10px;
+}
+
+.dropdown-mobile .inputDiv,
+.dropdown-mobile .Secondinput {
+  width: 100%;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+
+.dropdown-mobile .submit {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--color-yellow);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.navList li a {
+  color: white;
+}
+
+.input {
+  width: auto;
+}
+
+.small-main {
+  background: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 100%;
+}
+
+.small-main-tab {
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.small-main-tab button {
+  border: none;
+  font-size: 16px;
+  padding: 12px 4px;
+  color: black;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: 400;
+}

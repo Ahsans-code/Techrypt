@@ -24,6 +24,7 @@ export default function Header() {
 
   return (
     <>
+      {/* Desktop Navbar */}
       <nav className="navbar">
         <div className="leftNav">
           <a href="/">
@@ -34,54 +35,20 @@ export default function Header() {
 
         <div className="midNav">
           <ul className="navList">
-            <li className="listItems">
-              <Link to="/Influence" className="anchor">
-                <button
-                  className={`navButton ${
-                    activeButton === "Influence" ? "active" : ""
-                  }`} // Apply active class if clicked
-                  onClick={() => handleButtonClick("Influence")}
-                >
-                  Influence
-                </button>
-              </Link>
-            </li>
-            <li className="listItems">
-              <Link to="/Performance" className="anchor">
-                <button
-                  className={`navButton ${
-                    activeButton === "Performance" ? "active" : ""
-                  }`} // Apply active class if clicked
-                  onClick={() => handleButtonClick("Performance")}
-                >
-                  Performance
-                </button>
-              </Link>
-            </li>
-            <li className="listItems">
-              <Link to="/Creative" className="anchor">
-                <button
-                  className={`navButton ${
-                    activeButton === "Creative" ? "active" : ""
-                  }`} // Apply active class if clicked
-                  onClick={() => handleButtonClick("Creative")}
-                >
-                  Creative
-                </button>
-              </Link>
-            </li>
-            <li className="listItems">
-              <Link to="/Work" className="anchor">
-                <button
-                  className={`navButton ${
-                    activeButton === "Work" ? "active" : ""
-                  }`} // Apply active class if clicked
-                  onClick={() => handleButtonClick("Work")}
-                >
-                  Work
-                </button>
-              </Link>
-            </li>
+            {["Influence", "Performance", "Creative", "Work"].map((tab) => (
+              <li className="listItems" key={tab}>
+                <Link to={`/${tab}`} className="anchor">
+                  <button
+                    className={`navButton ${
+                      activeButton === tab ? "active" : ""
+                    }`}
+                    onClick={() => handleButtonClick(tab)}
+                  >
+                    {tab}
+                  </button>
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -94,6 +61,7 @@ export default function Header() {
             onClick={toggleDropdown}
           />
 
+          {/* Dropdown Menu */}
           {isDropdownVisible && (
             <div
               className={`dropdown ${
@@ -106,8 +74,7 @@ export default function Header() {
                     <Link
                       to="/About"
                       className="dropDownAnchor"
-                      style={{ color: "black", textDecoration: "underline" }}
-                      onClick={handleLinkClick} // Hide dropdown on click
+                      onClick={handleLinkClick}
                     >
                       About Us
                     </Link>
@@ -116,14 +83,14 @@ export default function Header() {
                     <Link
                       to="/Calendar"
                       className="dropDownAnchor"
-                      style={{ color: "black", textDecoration: "underline" }}
-                      onClick={handleLinkClick} // Hide dropdown on click
+                      onClick={handleLinkClick}
                     >
                       Events Calendar
                     </Link>
                   </li>
                 </ul>
               </div>
+
               <div className="inputDiv">
                 <div className="leftInput">
                   <input
@@ -170,6 +137,100 @@ export default function Header() {
           )}
         </div>
       </nav>
+
+      {/* Mobile Navbar */}
+      <div className="small-nav">
+        <div className="leftNav">
+          <a href="/">
+            <img src={icon} alt="" className="icon" />
+          </a>
+        </div>
+        <div className="linehor"></div>
+        <div className="rightNav">
+          <img
+            src={isDropdownVisible ? close : navIcon}
+            alt="navIcon"
+            className="icon"
+            onClick={toggleDropdown}
+          />
+        </div>
+
+        {/* Mobile Dropdown Menu */}
+        {isDropdownVisible && (
+          <div className="dropdown-mobile">
+            <ul className="navList">
+              <li
+                className="dropDownList"
+                style={{
+                  fontSize: "32px",
+                  marginRight: "auto",
+                }}
+              >
+                <Link to="/About" onClick={handleLinkClick}>
+                  About Us
+                </Link>
+              </li>
+              <li className="dropDownList" style={{ fontSize: "32px" }}>
+                <Link to="/Calendar" onClick={handleLinkClick}>
+                  Events Calendar
+                </Link>
+              </li>
+            </ul>
+            <div className="inputDiv">
+              <div className="leftInput">
+                <input type="text" placeholder="Your name" className="input" />
+                <input type="text" placeholder="Your email" className="input" />
+              </div>
+              <div className="rightInput">
+                <input
+                  type="text"
+                  placeholder="Your company name"
+                  className="input"
+                />
+                <input
+                  type="text"
+                  placeholder="How did you hear about us?"
+                  className="input"
+                />
+              </div>
+            </div>
+            <input
+              type="text"
+              placeholder="What are your strategic goals, plans & KPIs?"
+              className="Secondinput"
+            />
+            <button className="submit">Submit</button>
+          </div>
+        )}
+      </div>
+
+      <div className="small-main">
+        <div className="small-main-tab">
+          <ul className="navList">
+            {["Influence", "Performance", "Creative", "Work"].map((tab) => (
+              <li
+                className="listItems"
+                style={{
+                  marginRight: "0px",
+                  marginLeft: "0px",
+                }}
+                key={tab}
+              >
+                <Link to={`/${tab}`} className="anchor">
+                  <button
+                    className={`navButton ${
+                      activeButton === tab ? "active" : ""
+                    }`}
+                    onClick={() => handleButtonClick(tab)}
+                  >
+                    {tab}
+                  </button>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </>
   );
 }
