@@ -6,18 +6,19 @@ export default function Design() {
     <>
       <div className="design">
         <div className="headingDiv">
-          <h3 className="designHeading">Design & creative center</h3>
+          <h3 className="designHeading">MIRO</h3>
         </div>
         <div className="paragraph">
           <p className="designPara">
-            We create catchy animations and videos, make advertising banners
-            with CTR 25%+, shoot high-quality video footage and develop special
-            projects to feature seasonal events and culture specific
-            celebrations{" "}
+            TAPOOS has been an invaluable partner in managing and scaling Miro’s
+            influencer marketing program. The team consistently creates
+            tailored, data-driven strategies that align with our goals and drive
+            impact for our business, which has translated into impressive ROI
+            for our campaigns.
           </p>
         </div>
         <div className="button">
-          <button className="helloBtn">Say Hello</button>
+          <button className="helloBtn">Get Started</button>
         </div>
       </div>
     </>

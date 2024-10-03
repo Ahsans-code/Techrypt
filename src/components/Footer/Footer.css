@@ -3,6 +3,7 @@
   background: var(--color-black);
   overflow-x: hidden;
   height: auto;
+  padding-top: 60px;
 }
 
 .heading {
@@ -284,5 +285,9 @@ input::placeholder {
     position: absolute;
     left: 30px;
     margin-top: 40px;
+  }
+  .footer-img {
+    width: 300px;
+    margin-bottom: -40px;
   }
 }

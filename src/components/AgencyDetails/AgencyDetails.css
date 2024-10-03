@@ -1,47 +1,55 @@
-.zorka-agency{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    background: var(--color-black);
-    height: 50vh;
-    color: var(--color-white);
-    padding-top: 30px;
-    padding-bottom: 30px;
+.zorka-agency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: var(--color-black);
+  height: 50vh;
+  color: var(--color-white);
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
-.zorka-agency h1{
-    font-size: 5rem;
-    margin-bottom: 180px;
+.zorka-agency h1 {
+  font-size: 5rem;
+  margin-bottom: 180px;
 }
 
-.info-item span{
-font-size: 30px;
-border-bottom: 2px solid var(--color-white);
-border-top: 2px solid var(--color-white);
-display: flex;
-flex-direction: column;
-padding: 10px;
+.img-agency {
+  margin-bottom: 155px;
+  width: 400px;
 }
 
-.info-item span:nth-child(4){
-    border: none;
+.info-item span {
+  font-size: 40px;
+  border-bottom: 2px solid var(--color-white);
+  border-top: 2px solid var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
-.info-item span:nth-child(2){
-    border: none;
+
+.info-item span:nth-child(4) {
+  border: none;
+}
+.info-item span:nth-child(2) {
+  border: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .zorka-agency{
-        flex-direction: column;
-    }
-    .zorka-agency h1{
-        font-size: 3rem;
-        margin-bottom: 0px;
-    }
-    
-    .info-item span{
-    font-size: 22px;
-    }
-    
+  .zorka-agency {
+    flex-direction: column;
   }
+  .zorka-agency h1 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+  }
+  .img-agency {
+    margin-bottom: 0px;
+    width: 300px;
+  }
+
+  .info-item span {
+    font-size: 22px;
+  }
+}

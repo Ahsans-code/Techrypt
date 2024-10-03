@@ -1,23 +1,24 @@
-import React from 'react'
-import "./AgencyDetails.css"
+import React from "react";
+import "./AgencyDetails.css";
+import icon from "../../assets/Images/TapoosLogo.png";
 
 const AgencyDetails = () => {
   return (
     <>
-  <div className="zorka-agency">
-    <h1 className="agency-name">Zorka.Agency</h1>
-    <div className="agency-info">
-        <div className="info-item">
-            <span >Founded in 2014</span>
-            <span >$400M managed marketing budget</span>
-            <span >137 social experts</span>
-            <span >14 languages</span>
+      <div className="zorka-agency">
+        <img src={icon} alt="" width={300} className="img-agency" />
+        {/* <h1 className="agency-name">TAPOOS</h1> */}
+        <div className="agency-info">
+          <div className="info-item">
+            <span>Founded in 2017</span>
+            <span>Ever-evolving digital landscape</span>
+            <span>100+ social experts</span>
+            <span>14 languages</span>
+          </div>
         </div>
-    </div>
-</div>
-
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default AgencyDetails
+export default AgencyDetails;

@@ -1,72 +1,35 @@
 import React, { useRef, useState } from "react";
 import "./VideoGallery.css";
+import video1 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.08 AM.mp4";
+import video2 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.05 AM.mp4";
+import video3 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.02 AM.mp4";
+import video4 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.37.37 AM.mp4";
 
 const videoData = [
   {
     id: 1,
-    title: "Introduction to React",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
+    title: "Social Media Marketing",
+    url: video1,
     thumbnail: "https://via.placeholder.com/300x200.png?text=Intro+to+React",
   },
   {
     id: 2,
-    title: "JavaScript Basics",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
+    title: "Social Media Marketing",
+    url: video2,
     thumbnail: "https://via.placeholder.com/300x200.png?text=JavaScript+Basics",
   },
   {
     id: 3,
-    title: "CSS Flexbox Guide",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
+    title: "Social Media Marketing",
+    url: video1,
     thumbnail: "https://via.placeholder.com/300x200.png?text=CSS+Flexbox+Guide",
   },
   {
     id: 4,
-    title: "Understanding the DOM",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
+    title: "Social Media Marketing",
+    url: video4,
     thumbnail:
       "https://via.placeholder.com/300x200.png?text=Understanding+the+DOM",
-  },
-  {
-    id: 5,
-    title: "Building a REST API",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail:
-      "https://via.placeholder.com/300x200.png?text=Building+a+REST+API",
-  },
-  {
-    id: 6,
-    title: "Responsive Web Design",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail:
-      "https://via.placeholder.com/300x200.png?text=Responsive+Web+Design",
-  },
-  {
-    id: 7,
-    title: "React Hooks Explained",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail:
-      "https://via.placeholder.com/300x200.png?text=React+Hooks+Explained",
-  },
-  {
-    id: 8,
-    title: "CSS Grid Layout",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail: "https://via.placeholder.com/300x200.png?text=CSS+Grid+Layout",
-  },
-  {
-    id: 9,
-    title: "JavaScript ES6 Features",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail:
-      "https://via.placeholder.com/300x200.png?text=JavaScript+ES6+Features",
-  },
-  {
-    id: 10,
-    title: "Advanced CSS Techniques",
-    url: "https://www.w3schools.com/html/mov_bbb.mp4",
-    thumbnail:
-      "https://via.placeholder.com/300x200.png?text=Advanced+CSS+Techniques",
   },
 ];
 
@@ -108,7 +71,6 @@ const VideoItem = ({ video }) => {
         </button>
       </div>
       <h2 className="video-h2">{video.title}</h2>
-      <h3 className="video-h3">GAMING → MMO</h3>
     </div>
   );
 };

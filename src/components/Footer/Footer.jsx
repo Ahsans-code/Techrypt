@@ -8,23 +8,9 @@ import { FaTwitter } from "react-icons/fa6";
 import img1 from "../../assets/Images/clutch.png";
 import img2 from "../../assets/Images/google.png";
 import img3 from "../../assets/Images/meta.png";
+import icon from "../../assets/Images/TapoosLogo.png";
 
 import "./Footer.css";
-
-function VerticalLine() {
-  return (
-    <div
-      className="verticle"
-      style={{
-        borderRight: "2px solid white",
-        height: "80px",
-        position: "relative",
-        right: "34rem",
-        top: "2rem",
-      }}
-    />
-  );
-}
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -38,9 +24,25 @@ export default function Footer() {
     <>
       <div className="footer">
         <div className="heading">
-          <h1 className="main">Zorka.Agency</h1>
+          <img className="footer-img" src={icon} width={500} alt="av" />
+          <h1 className="main"></h1>
           <h3 className="sub">Influencer & Performance Marketing Agency</h3>
-          <VerticalLine />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              width: "100%",
+              paddingTop: "30px",
+            }}
+          >
+            <div
+              style={{
+                background: "white",
+                height: "100px",
+                width: "2px",
+              }}
+            ></div>
+          </div>
         </div>
         <br />
         <div className="formDiv">

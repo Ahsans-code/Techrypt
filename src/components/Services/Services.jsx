@@ -11,39 +11,38 @@ export default function Services() {
         <div className="mainBox">
           <div className="firstRow">
             <div className="firstBox">
-              <p className="boxText">Performance marketing analytics</p>
+              <p className="boxText">UGC Marketing</p>
             </div>
             <div className="secondBox">
               <p className="boxText">Landing pages</p>
             </div>
             <div className="thirdBox">
               <p className="boxText" style={{ width: "198px" }}>
-                Usability audit and advertising campaign audit
+                Tiktok Marketing
               </p>
             </div>
           </div>
           <div className="secondRow">
             <div className="firstBox">
               <p className="boxText" style={{ width: "266px" }}>
-                Creating ad campaigns for pre-installs from Samsung, Xiaomi and
-                Huawei stores
+                Tiktok Shop
               </p>
             </div>
             <div className="secondBox">
               <p className="boxText" style={{ width: "266px" }}>
-                Website promotion on social media
+                Performance Creative
               </p>
             </div>
             <div className="thirdBox">
               <p className="boxText" style={{ width: "266px" }}>
-                Development of custom mechanics and special projects
+                User Acquisition
               </p>
             </div>
           </div>
           <div className="thirdRow">
             <div className="firstBox">
               <p className="boxText" style={{ width: "266px" }}>
-                Detailed reports
+                Paid Media
               </p>
             </div>
             <div className="secondBox">
@@ -53,7 +52,7 @@ export default function Services() {
             </div>
             <div className="thirdBox">
               <p className="boxText" style={{ width: "266px" }}>
-                A/B testing
+                Panel Recruitment
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import icon from "../../assets/svgs/logo.svg";
+import icon from "../../assets/Images/TapoosLogo.png";
 import navIcon from "../../assets/svgs/close.svg";
 import close from "../../assets/svgs/open.svg";
 import { Link } from "react-router-dom";
@@ -28,7 +28,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="leftNav">
           <a href="/">
-            <img src={icon} alt="" className="icon" />
+            <img src={icon} width={100} alt="" className="icon" />
           </a>
           <hr className="hr1" />
         </div>
@@ -142,7 +142,7 @@ export default function Header() {
       <div className="small-nav">
         <div className="leftNav">
           <a href="/">
-            <img src={icon} alt="" className="icon" />
+            <img src={icon} alt="" width={100} className="icon" />
           </a>
         </div>
         <div className="linehor"></div>
