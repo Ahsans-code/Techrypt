@@ -11,14 +11,11 @@ import sanam from "../../assets/Images/sanam.jpg";
 import urwa from "../../assets/Images/urwa.jpg";
 import farhan from "../../assets/Images/farhan.jpg";
 import bohemia from "../../assets/Images/bohemia.jpg";
-// import sanam from "../../assets/Images/sanam.jpg";
-// import sanam from "../../assets/Images/sanam.jpg";
-
 import P4 from "../../assets/Images/ferozeImg.jpg";
 
 // VERTICLE
 
-import Yt from "../Images/Youtube.png";
+import Yt from "../Images/youtube.png";
 import Insta from "../Images/instagram.png";
 import Tt from "../Images/tiktok.png";
 import Telegram from "../Images/telegram.png";
