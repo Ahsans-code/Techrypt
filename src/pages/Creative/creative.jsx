@@ -6,10 +6,12 @@ import Hero from "../../components/Hero/Hero";
 const creative = () => {
   return (
     <>
-      <div style={{
-        background:"#0f0f0f"
-      }}>
-        <Hero/>
+      <div
+        style={{
+          background: "#0f0f0f",
+        }}
+      >
+        <Hero />
         <Slider />
         <Content />
       </div>

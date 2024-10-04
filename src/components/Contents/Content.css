@@ -69,8 +69,8 @@
 }
 
 .btn {
-  background-color: #fccd03;
-  color: black;
+  background-color: var(--color-yellow);
+  color: white;
   border: none;
   padding: 20px;
   font-family: "Right Grotesk", sans-serif;

@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
 import "./VideoGallery.css";
-import video1 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.08 AM.mp4";
-import video2 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.05 AM.mp4";
-import video3 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.32.02 AM.mp4";
-import video4 from "../../assets/videos/WhatsApp Video 2024-10-04 at 2.37.37 AM.mp4";
+import video1 from "../../assets/videos/feroze.mp4";
+import video2 from "../../assets/videos/andra.mp4";
+import video3 from "../../assets/videos/bohemia.mp4";
+import video4 from "../../assets/videos/farhan.mp4";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const videoData = [
   {
@@ -21,7 +22,7 @@ const videoData = [
   {
     id: 3,
     title: "Social Media Marketing",
-    url: video1,
+    url: video3,
     thumbnail: "https://via.placeholder.com/300x200.png?text=CSS+Flexbox+Guide",
   },
   {
@@ -36,7 +37,7 @@ const videoData = [
 const VideoGallery = () => {
   return (
     <>
-      <h1 className="video-h1">Our Work</h1>
+      <h1 className="video-h1">Trusted by 250+ Online Brands</h1>
       <div className="video-gallery">
         {videoData.map((video) => (
           <VideoItem key={video.id} video={video} />
@@ -48,7 +49,7 @@ const VideoGallery = () => {
 
 const VideoItem = ({ video }) => {
   const videoRef = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true); // Start as true for autoplay
 
   const handlePlayPause = () => {
     if (isPlaying) {
@@ -62,12 +63,31 @@ const VideoItem = ({ video }) => {
   return (
     <div className="video-item">
       <div className="video-container">
-        <video className="video" ref={videoRef}>
+        <video
+          className="video"
+          ref={videoRef}
+          autoPlay
+          muted // Muted to allow autoplay in most browsers
+          loop // Optional: makes the video loop
+        >
           <source src={video.url} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <button className="play-button" onClick={handlePlayPause}>
-          {isPlaying ? "Pause" : "Play"}
+        {/* Play button */}
+        <button
+          className="play-button"
+          onClick={handlePlayPause}
+          style={{ display: isPlaying ? "none" : "block" }}
+        >
+          <i className="fas fa-play"></i> {/* Font Awesome play icon */}
+        </button>
+        {/* Pause button */}
+        <button
+          className="pause-button"
+          onClick={handlePlayPause}
+          style={{ display: isPlaying ? "block" : "none" }}
+        >
+          <i className="fas fa-pause"></i> {/* Font Awesome pause icon */}
         </button>
       </div>
       <h2 className="video-h2">{video.title}</h2>

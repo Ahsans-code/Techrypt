@@ -4,44 +4,67 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .award-section {
-  width: 90vw;
+  width: 85vw;
   height: 40vh;
-  background: #65ce9f;
+  background: var(--color-yellow);
   border-radius: 20px;
   position: relative;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
 .grid {
   display: grid;
-  position: absolute;
-  grid-template-columns: 20% 40% 40%;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 30px;
   padding: 30px;
   height: auto;
 }
 
-.grid h2 {
+.award-title {
   font-family: "Right Grotesk", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 1.4rem;
-  line-height: 2rem;
-  letter-spacing: normal;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.02em;
   color: white;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.award-title:hover {
+  color: var(--color-black);
 }
 
 .hrr {
   border: 1px solid white;
-  margin: 2px;
+  margin: 8px 0;
 }
 
 @media only screen and (max-width: 600px) {
-  .grid h2 {
-    font-size: 1.2rem;
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
+
   .award-section {
-    height: 135vw;
+    height: auto;
+    padding: 20px;
+  }
+
+  .award-title {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
   }
 }

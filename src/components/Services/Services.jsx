@@ -6,7 +6,9 @@ export default function Services() {
     <>
       <div className="container-main">
         <div className="headingDiv">
-          <h1 className="servicesHeading">You will get high quality service</h1>
+          <h1 className="servicesHeading">
+            You will get high quality services
+          </h1>
         </div>
         <div className="mainBox">
           <div className="firstRow">

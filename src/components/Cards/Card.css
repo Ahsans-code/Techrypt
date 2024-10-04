@@ -16,7 +16,7 @@
 
 .card::after {
   content: "";
-  background: url(../../assets/Images/indrive@2x.png) center / 15rem 15rem
+  background: url(../../assets/Images/jacqImg.jpg) center center / cover
     no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
@@ -107,8 +107,7 @@
 
 .card1::after {
   content: "";
-  background: url(../../assets/Images/plarium@2x.png) center / 15rem 15rem
-    no-repeat;
+  background: url(../../assets/Images/ferozeImg.jpg) center no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
   top: 0;
@@ -144,8 +143,7 @@
 
 .card2::after {
   content: "";
-  background: url(../../assets/Images/nexters@2x.png) center / 15rem 15rem
-    no-repeat;
+  background: url(../../assets/Images/maheshImg.jpg) center no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
   top: 0;

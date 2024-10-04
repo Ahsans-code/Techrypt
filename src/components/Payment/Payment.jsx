@@ -6,21 +6,30 @@ export default function Payment() {
     <>
       <div className="payment">
         <div className="left">
-          <h1 className="paymentHeading">Payment models</h1>
-          <p className="text">CPI + Soft / Hard KPI </p>
-          <p className="text">CPA + Soft / Hard KPI</p>
-          <p className="text">Agency Fee</p>
-          <p className="text">Revenue Share</p>
+          <h1 className="paymentHeading">Payment Options</h1>
+          <p className="text">
+            We offer a variety of payment methods to suit your needs:
+          </p>
+          <ul
+            style={{
+              listStyle: "none",
+            }}
+          >
+            <li className="text">Credit/Debit Cards</li>
+            <li className="text">Bank Transfers</li>
+            <li className="text">
+              Mobile Payments (e.g., Apple Pay, Google Pay)
+            </li>
+          </ul>
+          <p className="text">Secure and flexible options for all customers!</p>
         </div>
         <div className="rightDiv">
-          <h1 className="paymentHeading2">Optimization formats</h1>
-          <p className="text2">Ad campaign optimization for conversions</p>
-          <p className="text2">
-            Testing of creative approaches and hypotheses (increase CTR/VTR)
-          </p>
-          <p className="text2">Traffic quality monitoring</p>
-          <p className="text2">Placement optimization</p>
-          <p className="text2">Testing of target and lookalike audiences</p>
+          <h1 className="paymentHeading2">Industries</h1>
+          <p className="text2">High School Advertising</p>
+          <p className="text2">Mobile Apps</p>
+          <p className="text2">Consumer Packaged Goods</p>
+          <p className="text2">Direct to Consumer</p>
+          <p className="text2">Healthcare</p>
         </div>
       </div>
     </>

@@ -33,7 +33,7 @@
 }
 
 .helloBtn {
-  background-color: #30ce9e;
+  background-color: var(--color-yellow);
   color: white;
   border: none;
   padding: 20px;

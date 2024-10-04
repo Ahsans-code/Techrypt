@@ -51,17 +51,13 @@ option {
 
 .show-more-button {
   background-color: var(--color-yellow); /* Blue background */
-  color: var(--color-black); /* White text */
+  color: var(--color-white); /* White text */
   padding: 10px 20px; /* Padding for the button */
   border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 50px; /* Rounded corners */
   font-size: 16px; /* Font size */
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Smooth hover transition */
-}
-
-.show-more-button:hover {
-  background-color: rgba(255, 208, 0, 0.952); /* Darker blue on hover */
 }
 
 .show-more-button:focus {
