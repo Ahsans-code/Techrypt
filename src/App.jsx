@@ -15,7 +15,7 @@ import {
 import React, { useEffect } from "react";
 import "./App.css";
 import EventCalendar from "./pages/EventCalendar/EventCalendar.jsx";
-import Sidebar from "./components/Sidebar/Sidebar.jsx";
+// import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import MessageSidebar from "./components/MessageSidebar/MessageSidebar.jsx";
 
 const ScrollToTop = () => {
@@ -54,7 +54,7 @@ const App = () => {
           <Route path="/Calendar" element={<EventCalendar />} />
         </Routes>
       </PageTransition>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <MessageSidebar />
       <Footer />
     </Router>
