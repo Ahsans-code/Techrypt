@@ -115,15 +115,15 @@ export const verticals = [
 
 export const data = [
   {
-    Company: "inDrive",
-    Name: "inDrive",
-    Services: "Performance Marketing",
-    GEO: "Tier 1, CIS, Latin America",
-    Platform: "Meta, Unity Ads",
-    Image: "https://zorka.agency/files/work/clients/indrive@2x.png",
-    Vertical: "Travel",
+    Company: "Jacqueline Fernandez",
+    Name: "Gurindal Segal",
+    Services: "Digital Marketing",
+    GEO: "Labels T-series",
+    Platform: "Youtube",
+    Image: jac,
+    Vertical: "Marketing",
     Results:
-      "Our team has been working with inDrive for about 5 years. Together we first launched performance campaigns in the markets of Africa, Latin America and Asia, and tangibly increased the audience in the CIS. In 2021 we reached 477,100 installs with an average CPI $3. The results of our work can be considered 402,404 registered users who made a total of 628,479 trips.",
+      "Jacqueline Genevieve Fernandez is a Sri Lankan actress based in India. She has worked in Indian films, predominantly in Hindi, besides appearing in reality shows and music videos. Fernandez was born and raised in Bahrain.",
   },
   {
     Company: "Feroze Khan",
@@ -131,7 +131,7 @@ export const data = [
     Services: "PR & Digital Marketing Verification Badge",
     GEO: "Tier 1",
     Platform: "Marketing",
-    Image: "https://zorka.agency/files/work/clients/nexters@2x.png",
+    Image: feroze,
     Vertical: "Marketing",
     Results:
       "Feroze Khan is a Pakistani actor and video jockey who primarily works in Urdu television. One of Pakistan's highest-paid actors, he is the recipient of several accolades, including three Lux Style Awards",
@@ -142,7 +142,7 @@ export const data = [
     Services: "PR & Digital Marketing Verification Badge.",
     GEO: "Tier 1",
     Platform: "Youtube",
-    Image: "https://zorka.agency/files/work/clients/plarium@2x.png",
+    Image: Bhatt,
     Vertical: "Marketing",
     Results:
       "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
@@ -153,7 +153,7 @@ export const data = [
     Services: "PR & Digital Marketing Verification Badge.",
     GEO: "Tier 1",
     Platform: "Youtube",
-    Image: "https://zorka.agency/files/work/clients/animoca_brands@2x.png",
+    Image: sanam,
     Vertical: "Social",
     Results:
       "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",

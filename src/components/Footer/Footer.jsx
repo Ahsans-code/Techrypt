@@ -11,7 +11,6 @@ import img3 from "../../assets/Images/meta.png";
 import icon from "../../assets/Images/TapoosLogo.png";
 
 import "./Footer.css";
-import { techryptLogo } from "../../assets/mainImages";
 
 const scrollToTop = () => {
   window.scrollTo({
@@ -24,10 +23,10 @@ export default function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="heading ">
-          <img className="footer-img" src={techryptLogo} width={500} alt="av" />
+        <div className="heading">
+          <img className="footer-img" src={icon} width={500} alt="av" />
           <h1 className="main"></h1>
-          <h3 className="sub">Empowering Digital Skills & AI-Driven Business Solutions</h3>
+          <h3 className="sub">Influencer & Performance Marketing Agency</h3>
           <div
             style={{
               display: "flex",

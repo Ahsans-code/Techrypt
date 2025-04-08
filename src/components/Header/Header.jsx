@@ -4,7 +4,6 @@ import icon from "../../assets/Images/TapoosLogo.png";
 import navIcon from "../../assets/svgs/close.svg";
 import close from "../../assets/svgs/open.svg";
 import { Link } from "react-router-dom";
-import { techryptLogo } from "../../assets/mainImages";
 
 export default function Header() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -29,14 +28,14 @@ export default function Header() {
       <nav className="navbar">
         <div className="leftNav">
           <a href="/">
-            <img  src={techryptLogo} width={100} height={50} alt="" className="icon" />
+            <img src={icon} width={100} alt="" className="icon" />
           </a>
           <hr className="hr1" />
         </div>
 
         <div className="midNav">
           <ul className="navList">
-            {["About", "Performance", "Creative", "Work"].map((tab) => (
+            {["Influence", "Performance", "Creative", "Work"].map((tab) => (
               <li className="listItems" key={tab}>
                 <Link to={`/${tab}`} className="anchor">
                   <button
@@ -73,11 +72,11 @@ export default function Header() {
                 <ul className="navList">
                   <li className="dropDownList">
                     <Link
-                      to="/Influence"
+                      to="/About"
                       className="dropDownAnchor"
                       onClick={handleLinkClick}
                     >
-                      Influence
+                      About Us
                     </Link>
                   </li>
                   <li className="dropDownList">
@@ -167,8 +166,8 @@ export default function Header() {
                   marginRight: "auto",
                 }}
               >
-                <Link to="/Influence" onClick={handleLinkClick}>
-                  Influence
+                <Link to="/About" onClick={handleLinkClick}>
+                  About Us
                 </Link>
               </li>
               <li className="dropDownList" style={{ fontSize: "32px" }}>
@@ -208,7 +207,7 @@ export default function Header() {
       <div className="small-main">
         <div className="small-main-tab">
           <ul className="navList">
-            {["About", "Performance", "Creative", "Work"].map((tab) => (
+            {["Influence", "Performance", "Creative", "Work"].map((tab) => (
               <li
                 className="listItems"
                 style={{

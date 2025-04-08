@@ -4,7 +4,6 @@ import AgencyDetails from "../../components/AgencyDetails/AgencyDetails";
 import SliderLogo from "../../components/SliderLogos/AutoSlider";
 import CreativeTeamSection from "../../components/CreativeTeamSection/CreativeTeamSection.jsx";
 import VideoGallery from "../../components/VideoGallery/VideoGallery.jsx";
-import Verticals from "../../components/Verticals/Verticals.jsx";
 
 const main = () => {
   return (
@@ -15,8 +14,6 @@ const main = () => {
       <SliderLogo />
 
       <VideoGallery />
-      <Verticals />
-
     </>
   );
 };

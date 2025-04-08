@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-para">
-        <p>Unlock new opportunities with expert-led training & cutting-edge digital services.</p>
+        <p>Scale your brand with a creative growth agency</p>
       </div>
       <div className="smile"></div>
     </div>

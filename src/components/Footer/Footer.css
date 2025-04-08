@@ -9,7 +9,6 @@
 .heading {
   display: inline-block;
   align-items: center;
-  height: 50px;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -117,10 +116,7 @@ input::placeholder {
     cursor: pointer;
   }
 }
-.footer-img{
-  height: 120px;
-  object-fit: cover;
-}
+
 .PrivacyPolicy {
   line-height: 30px;
   position: relative;
@@ -292,8 +288,6 @@ input::placeholder {
   }
   .footer-img {
     width: 300px;
-    /* border: 2px solid red; */
     margin-bottom: -40px;
-    height: 10px;
   }
 }

@@ -7,9 +7,10 @@ const Card = () => {
       <div className="card">
         <div className="card-bg">
           <div className="card-block">
-            <h3 className="card-title">Nexters</h3>
+            <h3 className="card-title">Jacqueline Fernandez</h3>
             <p className="p">
-            How to take a fresh look at mobile games marketing: Zorka.Agency’s creative approach to a commercial video
+              Jacqueline Fernandez is a Sri Lankan actress known for her work in
+              Hindi films and reality shows.
             </p>
           </div>
           <a className="card-text">Learn More</a>
@@ -18,9 +19,10 @@ const Card = () => {
       <div className="card1">
         <div className="card-bg">
           <div className="card-block">
-            <h3 className="card-title">InDrive</h3>
+            <h3 className="card-title">Feroze Khan</h3>
             <p className="p">
-            Five years of successful cooperation, thousands of users and new countries. How we helped inDrive grow from a startup to a major international company
+              Feroze Khan is a Pakistani actor and video jockey, celebrated for
+              his performances in Urdu television.
             </p>
           </div>
           <a className="card-text">Learn More</a>
@@ -29,8 +31,10 @@ const Card = () => {
       <div className="card2">
         <div className="card-bg">
           <div className="card-block">
-            <h3 className="card-title">Plarium</h3>
-            <p className="p">The world-famous game developer has been working with our team practically since the inception of Influencer Marketing
+            <h3 className="card-title">Mahesh Bhatt</h3>
+            <p className="p">
+              Mahesh Bhatt is a renowned Indian film director and producer,
+              acclaimed for his contributions to Hindi cinema.
             </p>
           </div>
           <a className="card-text">Learn More</a>

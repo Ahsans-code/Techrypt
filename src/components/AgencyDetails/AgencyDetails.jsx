@@ -10,10 +10,10 @@ const AgencyDetails = () => {
         {/* <h1 className="agency-name">TAPOOS</h1> */}
         <div className="agency-info">
           <div className="info-item">
-            <span>Founded in 2025</span>
+            <span>Founded in 2017</span>
             <span>Ever-evolving digital landscape</span>
-            <span>Driven By Expertise</span>
-            <span>Empowering Brands</span>
+            <span>100+ social experts</span>
+            <span>14 languages</span>
           </div>
         </div>
       </div>

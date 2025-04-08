@@ -8,36 +8,36 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const videoData = [
   {
-      id: 1,
-      title: "Social Media Marketing",
-      url: video1,
-      thumbnail: "https://via.placeholder.com/300x200.png?text=Intro+to+React",
-    },
-    {
-      id: 2,
-      title: "Bussiness Development Manager",
-      url: video2,
-      thumbnail: "https://via.placeholder.com/300x200.png?text=JavaScript+Basics",
-    },
-    {
-      id: 3,
-      title: "Account & Finance",
-      url: video3,
-      thumbnail: "https://via.placeholder.com/300x200.png?text=CSS+Flexbox+Guide",
-    },
-    {
-      id: 4,
-      title: "Human Resources Manager",
-      url: video4,
-      thumbnail:
-        "https://via.placeholder.com/300x200.png?text=Understanding+the+DOM",
-    },
+    id: 1,
+    title: "Social Media Marketing",
+    url: video1,
+    thumbnail: "https://via.placeholder.com/300x200.png?text=Intro+to+React",
+  },
+  {
+    id: 2,
+    title: "Social Media Marketing",
+    url: video2,
+    thumbnail: "https://via.placeholder.com/300x200.png?text=JavaScript+Basics",
+  },
+  {
+    id: 3,
+    title: "Social Media Marketing",
+    url: video3,
+    thumbnail: "https://via.placeholder.com/300x200.png?text=CSS+Flexbox+Guide",
+  },
+  {
+    id: 4,
+    title: "Social Media Marketing",
+    url: video4,
+    thumbnail:
+      "https://via.placeholder.com/300x200.png?text=Understanding+the+DOM",
+  },
 ];
 
 const VideoGallery = () => {
   return (
     <>
-      <h1 className="video-h1">Meet Our Experts</h1>
+      <h1 className="video-h1">Trusted by 250+ Online Brands</h1>
       <div className="video-gallery">
         {videoData.map((video) => (
           <VideoItem key={video.id} video={video} />

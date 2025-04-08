@@ -15,6 +15,7 @@ const influence = () => {
         <Hero />
         <InfluencerAndPlatforms />
         <Pricing />
+        <Verticals />
       </div>
     </>
   );

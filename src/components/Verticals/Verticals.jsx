@@ -5,7 +5,7 @@ import { verticals } from "../../assets/Data/Data";
 export default function Verticals({ text }) {
   return (
     <>
-      <div className="verticals ">
+      <div className="verticals">
         <h1 className="verticals-h1">Our Verticles</h1>
         <div className="verticals-grid">
           {verticals.map((item, i) => (
