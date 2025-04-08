@@ -10,7 +10,7 @@ export default function Design() {
         </div>
         <div className="paragraph">
           <p className="designPara">
-            TAPOOS has been an invaluable partner in managing and scaling Miro’s
+             has been an invaluable partner in managing and scaling Miro’s
             influencer marketing program. The team consistently creates
             tailored, data-driven strategies that align with our goals and drive
             impact for our business, which has translated into impressive ROI
