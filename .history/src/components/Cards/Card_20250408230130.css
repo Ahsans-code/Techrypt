@@ -1,0 +1,173 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  display: block;
+  position: relative;
+  margin: 24px 16px;
+  border-radius: 2px;
+  color: white;
+  height: 600px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.card::after {
+  content: "";
+  background: url("https://zorka.agency/files/work/featured/nexters@2x.png") center center / contain
+    no-repeat;
+  background-color: #0f0f0f;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  font-family: "Right Grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+  letter-spacing: -0.02em;
+}
+
+.p {
+  margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.65rem;
+  letter-spacing: normal;
+}
+
+.card-block {
+  text-align: center;
+  padding: 26px;
+  margin-top: 30%;
+}
+
+.card-bg {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0f0f0f;
+  transition: 0.2s ease;
+  border-radius: 50px;
+}
+
+.card-text {
+  font-family: "Right Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: normal;
+  border-radius: 10rem;
+  color: black;
+  padding: 10px 10px;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.card:hover .card-bg {
+  opacity: 1;
+}
+
+.card:hover ::after {
+  opacity: 0;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  margin: 24px 16px;
+  border-radius: 2px;
+  color: white;
+
+  height: 600px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.card1::after {
+  content: "";
+  background: url("https://zorka.agency/files/work/featured/indrive@2x.png") center no-repeat;
+  background-color: #0f0f0f;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.card1:hover .card-bg {
+  opacity: 1;
+}
+
+.card1:hover ::after {
+  opacity: 0;
+}
+
+.card2 {
+  display: block;
+  position: relative;
+  margin: 24px 16px;
+  border-radius: 2px;
+  color: white;
+
+  height: 600px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.card2::after {
+  content: "";
+  background: url("https://zorka.agency/files/work/featured/plarium@2x.png") center no-repeat;
+  background-color: #0f0f0f;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.card2:hover .card-bg {
+  opacity: 1;
+}
+
+.card2:hover ::after {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
