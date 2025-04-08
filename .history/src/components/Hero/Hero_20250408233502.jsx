@@ -54,7 +54,7 @@ const Hero = () => {
       <div className="hero-para">
         <p>Unlock new opportunities with expert-led training & cutting-edge digital services.</p>
       </div>
-      {/* <div className="smile"></div> */}
+      <div className="smile"></div>
     </div>
   );
 };
