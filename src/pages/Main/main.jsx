@@ -5,6 +5,7 @@ import SliderLogo from "../../components/SliderLogos/AutoSlider";
 import CreativeTeamSection from "../../components/CreativeTeamSection/CreativeTeamSection.jsx";
 import VideoGallery from "../../components/VideoGallery/VideoGallery.jsx";
 import Verticals from "../../components/Verticals/Verticals.jsx";
+import Services from "../../components/WhatWeDo/Services.jsx";
 
 const main = () => {
   return (
@@ -13,8 +14,8 @@ const main = () => {
       <AgencyDetails />
       <CreativeTeamSection />
       <SliderLogo />
-
-      <VideoGallery />
+      {/* <VideoGallery /> */}
+      <Services/>
       <Verticals />
 
     </>

@@ -33,14 +33,16 @@
 .section-image {
   width: 50%;
   display: flex;
-  
   justify-content: center;
 }
+
 
 .section-image img {
   width: 300px;
   /* background-color:#CC6666; */
   border-radius: 10px;
+  filter: drop-shadow(0 0 10px #F5FF1E);
+  /* drop-shadow(0 0 20px rgba(0, 255, 255, 0.5)); */
 padding: 10px 0px;
   height: auto;
   object-fit: contain;
