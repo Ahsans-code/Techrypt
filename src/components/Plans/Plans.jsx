@@ -60,7 +60,7 @@ const Plans = () => {
     <>
      
       <div className="pricing-container">
-        <h1 className="text-7xl font-semibold text-center text-white glowing-green">Our Plan</h1>
+        <h1 className="text-7xl font-semibold text-center text-white glowing-green">Our Plans</h1>
         <div className="pricing-grid">
           <div className="pricing-header">
             <h1 className="pricing-title">
