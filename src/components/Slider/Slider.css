@@ -51,7 +51,10 @@
   border-radius: 10rem;
   display: inline-block;
 }
-
+.mobile-slider{
+  padding: 10px 7px;
+  padding-bottom: 50px;
+}
 @media only screen and (max-width: 600px) {
   .slider-h1 {
     font-size: 3rem;

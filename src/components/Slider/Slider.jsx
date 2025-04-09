@@ -27,7 +27,7 @@ export default function Slider() {
 
   return (
     <>
-      <div className="hero-slider">
+      <div className="hero-slider max-md:hidden">
         <Swiper
           slidesPerView={1}
           mousewheel={true}
@@ -36,8 +36,8 @@ export default function Slider() {
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="slider-contain">
-                <h1 className="slider-h1">{slide.title}</h1>
+              <div className="slider-contain ">
+                <h1 className="slider-h1 glowing-green">{slide.title}</h1>
                 <h3 className="slider-h3">
                   {slide.content.split(" ").slice(0, 6).join(" ")}
                   <img
@@ -51,6 +51,24 @@ export default function Slider() {
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
+      <div className="md:hidden flex flex-col mobile-slider gap-10">
+        {slides.map((slide, index) => (
+
+          <div key={index} className=" flex-col gap-3 flex justify-center items-center h-fit  ">
+            <h1 className="text-white  glowing-green text-4xl">{slide.title}</h1>
+            <h3 className="text-white text-center text-xl">
+              {slide.content.split(" ").slice(0, 6).join(" ")}
+              <img
+                className="gif-image"
+                src={gif}
+                alt="Description of the GIF"
+              />
+              {slide.content.split(" ").slice(6).join(" ")}
+            </h3>
+          </div>
+
+        ))}
       </div>
     </>
   );

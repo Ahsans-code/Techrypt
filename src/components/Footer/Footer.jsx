@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="footer">
         <div className="heading ">
           <img className="footer-img" src={techryptLogo} width={500} alt="av" />
-          <h1 className="main"></h1>
+          {/* <h1 className="main"></h1> */}
           <h3 className="sub">Empowering Digital Skills & AI-Driven Business Solutions</h3>
           <div
             style={{

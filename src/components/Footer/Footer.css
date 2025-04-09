@@ -2,14 +2,14 @@
   text-align: center;
   background: var(--color-black);
   overflow-x: hidden;
-  height: auto;
+  /* height: auto; */
   padding-top: 60px;
 }
 
 .heading {
   display: inline-block;
   align-items: center;
-  height: 50px;
+  /* height: 50px; */
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -119,6 +119,7 @@ input::placeholder {
 }
 .footer-img{
   height: 120px;
+
   object-fit: cover;
 }
 .PrivacyPolicy {
@@ -292,8 +293,8 @@ input::placeholder {
   }
   .footer-img {
     width: 300px;
+    margin: auto;
+    margin-bottom:-20px ;
     /* border: 2px solid red; */
-    margin-bottom: -40px;
-    height: 10px;
   }
 }
