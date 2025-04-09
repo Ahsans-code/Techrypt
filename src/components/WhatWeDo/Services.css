@@ -54,7 +54,8 @@
     width: 90%;
     margin: 0 auto;
     display: grid;
-    gap: 1rem;
+    gap: 5rem 4rem;
+    
     grid-template-columns: 1fr;
   }
   

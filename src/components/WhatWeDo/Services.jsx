@@ -38,7 +38,7 @@ const Services = () => {
 
             <div className='services-grid'>
                 {CardContent.map((content, index) => (
-                    <div key={index} className='service-card'>
+                    <div key={index} className='service-card glow-green'>
                         <div className='service-image-container'>
                             <img src={content.img} alt="" />
                         </div>

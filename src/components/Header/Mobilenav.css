@@ -1,0 +1,64 @@
+/* InfluencePerformance.css */
+.influence-performance-container {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    gap: 10px;
+    padding: 4px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+  
+  .tab-button {
+    padding: 6px 13px;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-button.active {
+    background-color: #AEBB1E; /* Your primary color */
+    color: white;
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Show only on tablet and smaller screens */
+  @media (max-width: 1024px) {
+    .influence-performance-container {
+      display: flex;
+    }
+  }
+  
+  /* Hide scrollbar but keep functionality */
+  .tabs-wrapper::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .tabs-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .tabs-wrapper::-webkit-scrollbar-thumb {
+    background: #AEBB1E;
+    border-radius: 4px;
+  }

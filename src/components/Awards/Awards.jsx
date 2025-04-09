@@ -4,7 +4,7 @@ import "./Awards.css";
 export default function Awards() {
   return (
     <div className="container-award">
-      <div className="award-section">
+      <div className="award-section glowing-green" >
         <div className="grid">
           <div>
             <h2

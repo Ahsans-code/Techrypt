@@ -6,7 +6,7 @@ export default function Payment() {
     <>
       <div className="payment">
         <div className="left">
-          <h1 className="paymentHeading">Payment Options</h1>
+          <h1 className="paymentHeading glowing-green">Payment Options</h1>
           <p className="text">
             We offer a variety of payment methods to suit your needs:
           </p>
@@ -14,6 +14,7 @@ export default function Payment() {
             style={{
               listStyle: "none",
             }}
+            
           >
             <li className="text">Credit/Debit Cards</li>
             <li className="text">Bank Transfers</li>
@@ -24,7 +25,7 @@ export default function Payment() {
           <p className="text">Secure and flexible options for all customers!</p>
         </div>
         <div className="rightDiv">
-          <h1 className="paymentHeading2">Industries</h1>
+          <h1 className="paymentHeading2 glowing-green">Industries</h1>
           <p className="text2">High School Advertising</p>
           <p className="text2">Mobile Apps</p>
           <p className="text2">Consumer Packaged Goods</p>

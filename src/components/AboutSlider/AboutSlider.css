@@ -5,7 +5,7 @@
     background-color: var(--color-black);
 }
 .aboutslider-container{
-    background-color: #FCCD03;
+    /* background-color: #FCCD03; */
     border-radius: 50px;
     width: 80vw;
     display: flex;

@@ -126,15 +126,15 @@ export const data = [
       "Our team has been working with inDrive for about 5 years. Together we first launched performance campaigns in the markets of Africa, Latin America and Asia, and tangibly increased the audience in the CIS. In 2021 we reached 477,100 installs with an average CPI $3. The results of our work can be considered 402,404 registered users who made a total of 628,479 trips.",
   },
   {
-    Company: "Feroze Khan",
-    Name: " Shadow Legends",
-    Services: "PR & Digital Marketing Verification Badge",
+    Company: "Nexters",
+    Name: "Hero Wars",
+    Services: "Influencer Marketing",
     GEO: "Tier 1",
-    Platform: "Marketing",
+    Platform: "Youtube",
     Image: "https://zorka.agency/files/work/clients/nexters@2x.png",
-    Vertical: "Marketing",
+    Vertical: "Games",
     Results:
-      "Feroze Khan is a Pakistani actor and video jockey who primarily works in Urdu television. One of Pakistan's highest-paid actors, he is the recipient of several accolades, including three Lux Style Awards",
+      "This special project took place during the Halloween season. We decided to invite the audience to participate in blurring the boundaries between the real world and the game, offering them the opportunity to receive unique real-life gifts. Users downloaded the game from the website using a provided link, and as the number of downloads increased, new gifts became available to the participants. Once the required number of installations was reached, a portal opened, transferring in-game prizes into the real world.",
   },
   {
     Company: "Mahesh Bhatt",
@@ -157,39 +157,5 @@ export const data = [
     Vertical: "Social",
     Results:
       "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
-  },
-  {
-    Company: "Urwa Hocane",
-    Name: " Shadow Legends",
-    Services: "PR & Digital Marketing Verification Badge.",
-    GEO: "Africa",
-    Platform: "Youtube",
-    Image: urwa,
-    Vertical: "Marketing",
-    Results:
-      "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
-  },
-
-  {
-    Company: "Farhan Saeed",
-    Name: " Shadow Legends",
-    Services: "PR & Digital Marketing Verification Badge.",
-    GEO: "WorldWide",
-    Platform: "Youtube",
-    Image: farhan,
-    Vertical: "Marketing",
-    Results:
-      "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
-  },
-  {
-    Company: "Bohemia",
-    Name: " Shadow Legends",
-    Services: "PR & Digital Marketing Verification Badge.",
-    GEO: "WorldWide",
-    Platform: "Youtube",
-    Image: bohemia,
-    Vertical: "Marketing",
-    Results:
-      "The dragon in the dungeons of  Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
-  },
+  }
 ];

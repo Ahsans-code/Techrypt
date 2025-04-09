@@ -11,9 +11,9 @@ export default function Services() {
           </h1>
         </div>
         <div className="mainBox">
-          <div className="firstRow">
+          <div className="firstRow glowing-green">
             <div className="firstBox">
-              <p className="boxText">UGC Marketing</p>
+              <p className="boxText  ">UGC Marketing</p>
             </div>
             <div className="secondBox">
               <p className="boxText">Landing pages</p>
@@ -24,7 +24,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="secondRow">
+          <div className="secondRow glowing-green">
             <div className="firstBox">
               <p className="boxText" style={{ width: "266px" }}>
                 Tiktok Shop
@@ -41,7 +41,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="thirdRow">
+          <div className="thirdRow glowing-green">
             <div className="firstBox">
               <p className="boxText" style={{ width: "266px" }}>
                 Paid Media

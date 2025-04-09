@@ -64,7 +64,7 @@ function AutoSlider() {
         {sliderdata.map((item, i) => (
           <div key={i} className="slider-container">
             <div className="slider-image-container">
-              <img src={item?.logo} alt="logo" className="slider-image" />
+              <img src={item?.logo} alt="logo" className="slider-image glowing-green" />
             </div>
           </div>
         ))}
@@ -74,7 +74,7 @@ function AutoSlider() {
         {sliderdata.map((item, i) => (
           <div key={i} className="slider-container">
             <div className="slider-image-container">
-              <img src={item?.logo} alt="logo" className="slider-image" />
+              <img src={item?.logo} alt="logo" className="slider-image glowing-green" />
             </div>
           </div>
         ))}

@@ -3,7 +3,7 @@ import "./Hero.css";
 import video from "../../assets/herovid1.mp4";
 
 const Hero = () => {
-  const texts = ["Efficient", "Smart", "Worldwide"];
+  const texts = ["Development", "Branding", "Marketing"];
   const [currentText, setCurrentText] = useState(texts[0]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFading, setIsFading] = useState(false);

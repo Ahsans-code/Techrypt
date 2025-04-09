@@ -5,6 +5,7 @@ import navIcon from "../../assets/svgs/close.svg";
 import close from "../../assets/svgs/open.svg";
 import { Link } from "react-router-dom";
 import { techryptLogo } from "../../assets/mainImages";
+import Mobilenav from "./Mobilenav";
 
 export default function Header() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -69,9 +70,9 @@ export default function Header() {
                 isDropdownVisible ? "dropdown-visible" : "dropdown-hidden"
               }`}
             >
-              <div className="yellowDiv">
+              <div className="yellowDiv glow-green">
                 <ul className="navList">
-                  <li className="dropDownList">
+                  {/* <li className="dropDownList">
                     <Link
                       to="/Influence"
                       className="dropDownAnchor"
@@ -79,7 +80,7 @@ export default function Header() {
                     >
                       Influence
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="dropDownList">
                     <Link
                       to="/Calendar"
@@ -123,7 +124,7 @@ export default function Header() {
                 placeholder="What are your strategic goals, plans & KPIs?"
                 className="Secondinput"
               />
-              <button className="submit">Submit</button>
+              <button className="submit glow-hover">Submit</button>
               <p className="footerText">
                 By clicking submit, you agree to our{" "}
                 <Link to="/" className="footerText">
@@ -143,7 +144,7 @@ export default function Header() {
       <div className="small-nav">
         <div className="leftNav">
           <a href="/">
-            <img src={icon} alt="" width={100} className="icon" />
+            <img src={techryptLogo} alt="" width={100} className="icon" />
           </a>
         </div>
         <div className="linehor"></div>
@@ -159,8 +160,8 @@ export default function Header() {
         {/* Mobile Dropdown Menu */}
         {isDropdownVisible && (
           <div className="dropdown-mobile">
-            <ul className="navList">
-              <li
+            <ul className="navList glow-green">
+              {/* <li
                 className="dropDownList"
                 style={{
                   fontSize: "32px",
@@ -170,7 +171,7 @@ export default function Header() {
                 <Link to="/Influence" onClick={handleLinkClick}>
                   Influence
                 </Link>
-              </li>
+              </li> */}
               <li className="dropDownList" style={{ fontSize: "32px" }}>
                 <Link to="/Calendar" onClick={handleLinkClick}>
                   Events Calendar
@@ -200,12 +201,12 @@ export default function Header() {
               placeholder="What are your strategic goals, plans & KPIs?"
               className="Secondinput"
             />
-            <button className="submit">Submit</button>
+            <button className="submit glow-hover">Submit</button>
           </div>
         )}
       </div>
 
-      <div className="small-main">
+      {/* <div className="small-main">
         <div className="small-main-tab">
           <ul className="navList">
             {["About", "Performance", "Creative", "Work"].map((tab) => (
@@ -231,7 +232,8 @@ export default function Header() {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
+      <Mobilenav/>
     </>
   );
 }

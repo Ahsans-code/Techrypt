@@ -94,7 +94,7 @@ export default function Footer() {
             />
           </div>
 
-          <button className="btn-footer">Submit</button>
+          <button className="btn-footer glow-hover transition-all duration-150">Submit</button>
         </div>
 
         <div className="PrivacyPolicy">
@@ -113,28 +113,28 @@ export default function Footer() {
         </div>
         <div className="IconDiv">
           <a href="/">
-            <FaLinkedin className="icon" />
+            <FaLinkedin className="icon transition-all duration-150  glowing-yellow" />
           </a>
           <a href="/">
             {" "}
-            <FaYoutube className="icon" />
+            <FaYoutube className="icon  transition-all duration-150 glowing-yellow" />
           </a>
           <a href="/">
-            <RiInstagramFill className="icon" />
+            <RiInstagramFill className="icon transition-all duration-150  glowing-yellow" />
           </a>
           <a href="/">
-            <FaFacebookSquare className="icon" />
+            <FaFacebookSquare className="icon transition-all duration-150  glowing-yellow" />
           </a>
           <a href="/">
-            <FaTwitter className="icon" />
+            <FaTwitter className="icon transition-all duration-150  glowing-yellow" />
           </a>
         </div>
 
-        <div className="Arrow" onClick={scrollToTop}></div>
+        <div className="Arrow glowing-green" onClick={scrollToTop}></div>
         <div className="lastDiv">
           <div className="left1">
             <a href="/" className="link" style={{ fontSize: "12px" }}>
-              INFO@ZORKA.AGENCY
+              INFO@TECHRYPT.IO
             </a>
           </div>
           <div className="middle">

@@ -7,7 +7,7 @@ const CreativeTeamSection = () => {
     <>
       <div>
         <SectionComponent
-          heading="Cretive & Digital Design"
+          heading="Creative & Digital Design"
           text="We craft powerful brand identities through logo design, motion graphics, social media content, and video editing; bringing your vision to life with creativity, impact, precision, innovation, strategy, storytelling, visual appeal, audience engagement, brand consistency, and lasting impressions."
           imagePath={
             // "https://cdn.prod.website-files.com/65f9d9d22fb2f3b3f17c09ed/663280ce947a093198288960_home-page-inpage-1.png"

@@ -1,6 +1,9 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  /* place-items: center;
+  place-content: center; */
 }
 
 .card {
@@ -21,10 +24,10 @@
     no-repeat;
   background-color: #0f0f0f;
   opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: 10;
+  left: 10;
+  bottom: 10;
+  right: 10;
   border-radius: 50px;
   position: absolute;
   z-index: -1;
@@ -110,11 +113,13 @@
   content: "";
   background: url("https://zorka.agency/files/work/featured/indrive@2x.png") center no-repeat;
   background-color: #0f0f0f;
+  background-size: contain;
+
   opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: 10;
+  left: 10;
+  bottom: 10;
+  right: 10;
   border-radius: 50px;
   position: absolute;
   z-index: -1;
@@ -145,12 +150,13 @@
 .card2::after {
   content: "";
   background: url("https://zorka.agency/files/work/featured/plarium@2x.png") center no-repeat;
+  background-size: contain;
   background-color: #0f0f0f;
   opacity: 1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  top: 10;
+  left: 10;
+  bottom: 10;
+  right: 10;
   border-radius: 50px;
   position: absolute;
   z-index: -1;

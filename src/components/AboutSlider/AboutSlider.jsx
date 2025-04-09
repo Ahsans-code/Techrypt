@@ -79,7 +79,7 @@ export default function AboutSlider() {
   return (
     <>
       <div className="aboutslider-section">
-        <div className="aboutslider-container">
+        <div className="aboutslider-container bg-primary glow-green">
           <h1>Certified By</h1>
           <div className="aboutslider">
             <Slider {...settings}>
@@ -94,7 +94,7 @@ export default function AboutSlider() {
                 }
 
                 return (
-                  <div key={i} className={`slider-container ${bgClass}`}>
+                  <div key={i} className={`slider-container  ${bgClass}`}>
                     <div className="slider-image-container">
                       <img
                         src={item?.logo}

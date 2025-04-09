@@ -1,13 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
+@tailwind utilities;
 @theme {
     --color-five:#0158A6;
     --color-six:#121212;
     --color-seven:#3D550C;
     --color-eight:#111827;
     --color-nine:#0a0f14;
-    --color-ten:#CFE5FF
+    --color-ten:#CFE5FF;
+    --color-primary:#AEBB1E;
+    --color-black: #0f0f0f;
+}
+.glowing-yellow{
+  filter: drop-shadow(0 0 7px #F5FF1E);
+}
+.glowing-green{
+  filter: drop-shadow(0 0 7px #D4FF00);
+}
+.glowing-pink{
+  filter: drop-shadow(0 0 7px #FF56A5);
+}
+.glow-green {
+  box-shadow: 
+    0 0 35px rgba(212, 255, 0, 0.4), 
+    0 0 17px rgba(212, 255, 0, 0.3), 
+    0 0 10px rgba(174, 187, 30, 0.2);
+}
+
+.glow-hover:hover {
+  box-shadow: 
+    0 0 35px rgba(212, 255, 0, 0.4), 
+    0 0 17px rgba(212, 255, 0, 0.3), 
+    0 0 10px rgba(174, 187, 30, 0.2);
+}
+
+.glow-pink {
+  box-shadow: 
+    0 0 35px rgba(255, 86, 165, 0.4), 
+    0 0 17px rgba(255, 86, 165, 0.3), 
+    0 0 10px rgba(255, 86, 165, 0.2);
 }
 
 .inter {

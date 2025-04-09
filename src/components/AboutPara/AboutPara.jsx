@@ -11,10 +11,10 @@ export default function AboutPara() {
             Techrypt.io is a forward-thinking team of experts dedicated to reshaping the future of learning and business. We equip individuals with in-demand digital skills and help businesses grow through smart, scalable solutions in AI automation, branding, development, and marketing.
             </h2>
           </div>
-          <div className="bordered-para">
+          <div className="bordered-para glowing-pink">
             <h3>At Techrypt , We treat our clients as our partners</h3>
           </div>
-          <span className="seperator"></span>
+          <span className="seperator glowing-pink"></span>
           <div className="para">
             <p>
             To build a future where individuals master high-value digital skills, and businesses leverage next-gen technology to innovate, automate, and scale.

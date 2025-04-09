@@ -25,7 +25,7 @@ export default function AboutWrite() {
             <h2>Medium</h2>
           </div>
         </div>
-        <div className="aboutwrite-button">
+        <div className="aboutwrite-button bg-primary">
           <a href="">Read our articles</a>
         </div>
       </div>

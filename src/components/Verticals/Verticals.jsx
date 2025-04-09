@@ -10,7 +10,7 @@ export default function Verticals({ text }) {
         <div className="verticals-grid">
           {verticals.map((item, i) => (
             <div
-              className={`verticals-cards ${item.text.toLowerCase()}`}
+              className={`verticals-cards glowing-pink ${item.text.toLowerCase()}`}
               key={i}
             >
               <h3>{item.text.toUpperCase()}</h3>
