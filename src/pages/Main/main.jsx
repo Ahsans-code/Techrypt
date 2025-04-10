@@ -11,7 +11,9 @@ const main = () => {
   return (
     <>
       <Hero />
+      <div className="fading"></div>
       <AgencyDetails />
+    
       <CreativeTeamSection />
       <SliderLogo />
       {/* <VideoGallery /> */}

@@ -1,13 +1,19 @@
 .zorka-agency {
-  display: flex;
+  display: flex
+;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  /* margin-top: -50px; */
+  /* z-index: 10; */
+  position: relative;
   gap: 40px;
-  background: var(--color-black);
-  /* height: 50vh; */
   color: var(--color-white);
-  padding: 16px 0px;
+  padding-top: 88px;
+  padding-bottom: 16px;
+  /* padding: 16px 0px; */
 }
+
 
 .zorka-agency h1 {
   font-size: 5rem;

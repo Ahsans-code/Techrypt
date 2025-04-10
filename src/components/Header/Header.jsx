@@ -30,7 +30,7 @@ export default function Header() {
       <nav className="navbar">
         <div className="leftNav">
           <a href="/">
-            <img  src={techryptLogo} width={100} height={50} alt="" className="icon" />
+            <img  src={techryptLogo} width={125} height={50} alt="" className="icon" />
           </a>
           <hr className="hr1" />
         </div>
